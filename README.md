@@ -4,6 +4,12 @@ Ira is a AI companion system designed for long-term emotional support and consis
 
 ---
 
+
+https://github.com/user-attachments/assets/b3521aca-2fe5-4c32-9cdf-922a9e4ecbe0
+
+
+
+
 ## 🚀 Deliverables
 
 This repository contains the full implementation and evaluation suite for the Ira project:
