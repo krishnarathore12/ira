@@ -5,7 +5,9 @@ import urllib.error
 import re
 import time
 
-API_KEY = "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"
+API_KEY = os.environ.get("OPENAI_API_KEY")
+if not API_KEY:
+    raise ValueError("OPENAI_API_KEY environment variable not set")
 
 BASE_DIR = "/home/rathore/Desktop/github-repo/ira/backend/locomo/data/multimodal_dialog/ira_long"
 DIRECTORIES = [
