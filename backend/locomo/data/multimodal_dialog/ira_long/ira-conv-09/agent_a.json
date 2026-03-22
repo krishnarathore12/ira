@@ -1,0 +1,2178 @@
+{
+  "name": "Imran",
+  "persona_summary": "Imran is an Indian adult who speaks Hinglish and shares personal life updates with Ira. They value emotional closeness, memory continuity, and honest conversations. Recent context: Imran opened up about open-mic anxiety before an Andheri show. Ira gave a concrete pre-stage grounding routine and emotional reassurance. After a bombed joke, Imran felt shame but rewrote his set. Ira reframed failure as data and reinforced his adaptive identity. The revised set succeeded and confidence improved. Ira connected results to practiced grounding and consistent emotional support.",
+  "events_start_date": "03 November, 2022",
+  "graph": [
+    {
+      "sub-event": "Imran performs at an open-mic in Andheri for the first time.",
+      "date": "15 November, 2022",
+      "id": "E1",
+      "caused_by": []
+    },
+    {
+      "sub-event": "Imran feels anxious before the open-mic show.",
+      "date": "15 November, 2022",
+      "id": "E2",
+      "caused_by": [
+        "E1"
+      ]
+    },
+    {
+      "sub-event": "Imran opens up to Ira about his anxiety.",
+      "date": "16 November, 2022",
+      "id": "E3",
+      "caused_by": [
+        "E2"
+      ]
+    },
+    {
+      "sub-event": "Imran feels shame after bombing a joke at the open-mic show.",
+      "date": "18 November, 2022",
+      "id": "E4",
+      "caused_by": [
+        "E1"
+      ]
+    },
+    {
+      "sub-event": "Ira helps Imran rework his joke set after the bombing incident.",
+      "date": "19 November, 2022",
+      "id": "E5",
+      "caused_by": [
+        "E4"
+      ]
+    },
+    {
+      "sub-event": "Imran gains confidence after the success of the revised joke set.",
+      "date": "22 November, 2022",
+      "id": "E6",
+      "caused_by": [
+        "E5"
+      ]
+    },
+    {
+      "sub-event": "Ira reinforces Imran's adaptive identity after the successful show.",
+      "date": "25 November, 2022",
+      "id": "E7",
+      "caused_by": [
+        "E6"
+      ]
+    },
+    {
+      "sub-event": "Imran receives an invitation to perform at a comedy club in Mumbai.",
+      "date": "03 December, 2022",
+      "id": "E8",
+      "caused_by": [
+        "E7"
+      ]
+    },
+    {
+      "sub-event": "Ira shares a personal story with Imran to strengthen their emotional bond.",
+      "date": "10 January, 2023",
+      "id": "E9",
+      "caused_by": []
+    },
+    {
+      "sub-event": "Imran expresses his gratitude to Ira for the continuous emotional support.",
+      "date": "15 February, 2023",
+      "id": "E10",
+      "caused_by": [
+        "E9"
+      ]
+    },
+    {
+      "sub-event": "Ira and Imran engage in a deep conversation about personal growth and vulnerability.",
+      "date": "01 March, 2023",
+      "id": "E11",
+      "caused_by": [
+        "E10"
+      ]
+    },
+    {
+      "sub-event": "Imran decides to try out a new genre of comedy for the comedy club performance.",
+      "date": "10 March, 2023",
+      "id": "E12",
+      "caused_by": [
+        "E8"
+      ]
+    },
+    {
+      "sub-event": "Ira gives Imran constructive feedback on his new comedy genre.",
+      "date": "12 March, 2023",
+      "id": "E13",
+      "caused_by": [
+        "E12"
+      ]
+    },
+    {
+      "sub-event": "Imran incorporates Ira's feedback and improves his new comedy genre performance.",
+      "date": "20 March, 2023",
+      "id": "E14",
+      "caused_by": [
+        "E13"
+      ]
+    },
+    {
+      "sub-event": "Ira expresses pride in Imran's growth as a comedian and friend.",
+      "date": "01 July, 2023",
+      "id": "E15",
+      "caused_by": [
+        "E14"
+      ]
+    },
+    {
+      "sub-event": "Imran starts writing a stand-up routine about cultural stereotypes for his next performance.",
+      "date": "25 March, 2023",
+      "id": "E16",
+      "caused_by": [
+        "E14"
+      ]
+    },
+    {
+      "sub-event": "Ira provides insights on how to weave personal experiences into Imran's comedy routine.",
+      "date": "02 April, 2023",
+      "id": "E17",
+      "caused_by": [
+        "E16"
+      ]
+    },
+    {
+      "sub-event": "Imran performs his new stand-up routine incorporating personal experiences and cultural insights.",
+      "date": "10 April, 2023",
+      "id": "E18",
+      "caused_by": [
+        "E17"
+      ]
+    },
+    {
+      "sub-event": "Ira attends Imran's performance and praises the authenticity and humor of his new routine.",
+      "date": "15 April, 2023",
+      "id": "E19",
+      "caused_by": [
+        "E18"
+      ]
+    },
+    {
+      "sub-event": "Imran starts collaborating with Ira on writing comedy scripts for future performances.",
+      "date": "02 May, 2023",
+      "id": "E20",
+      "caused_by": [
+        "E19"
+      ]
+    },
+    {
+      "sub-event": "Ira and Imran share a laughter-filled bonding session while working on comedy scripts.",
+      "date": "10 May, 2023",
+      "id": "E21",
+      "caused_by": [
+        "E20"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira create a comedic sketch about their friendship and inside jokes.",
+      "date": "20 May, 2023",
+      "id": "E22",
+      "caused_by": [
+        "E21"
+      ]
+    },
+    {
+      "sub-event": "Ira surprises Imran with a personalized comedy sketch as a token of appreciation for their friendship.",
+      "date": "01 June, 2023",
+      "id": "E23",
+      "caused_by": [
+        "E22"
+      ]
+    },
+    {
+      "sub-event": "Imran reflects on his growth as a comedian and individual.",
+      "date": "01 August, 2023",
+      "id": "E24",
+      "caused_by": [
+        "E15"
+      ]
+    },
+    {
+      "sub-event": "Ira and Imran have a heart-to-heart conversation about their future goals.",
+      "date": "10 August, 2023",
+      "id": "E25",
+      "caused_by": [
+        "E24",
+        "E11"
+      ]
+    },
+    {
+      "sub-event": "Imran introduces Ira to his family during a special gathering.",
+      "date": "20 August, 2023",
+      "id": "E26",
+      "caused_by": [
+        "E25"
+      ]
+    },
+    {
+      "sub-event": "Ira and Imran plan a joint comedic performance showcasing their bond and shared experiences.",
+      "date": "30 August, 2023",
+      "id": "E27",
+      "caused_by": [
+        "E26",
+        "E23"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira attend a stand-up comedy workshop together to enhance their comedic skills.",
+      "date": "05 November, 2022",
+      "id": "E28",
+      "caused_by": []
+    },
+    {
+      "sub-event": "Imran and Ira practice a duo comedy routine inspired by their workshop experience.",
+      "date": "20 November, 2022",
+      "id": "E29",
+      "caused_by": [
+        "E28"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira perform their duo comedy routine at a local comedy club.",
+      "date": "02 December, 2022",
+      "id": "E30",
+      "caused_by": [
+        "E29"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira receive positive feedback from the audience for their comedic performance.",
+      "date": "15 December, 2022",
+      "id": "E31",
+      "caused_by": [
+        "E30"
+      ]
+    },
+    {
+      "sub-event": "Ira and Imran plan a road trip to explore new comedy scenes in different cities.",
+      "date": "15 May, 2023",
+      "id": "E32",
+      "caused_by": [
+        "E21",
+        "E23"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira create a comedy routine inspired by their road trip experiences.",
+      "date": "25 May, 2023",
+      "id": "E33",
+      "caused_by": [
+        "E32"
+      ]
+    },
+    {
+      "sub-event": "Ira surprises Imran with customized comedy props for their joint comedy performance.",
+      "date": "10 June, 2023",
+      "id": "E34",
+      "caused_by": [
+        "E33"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira receive a collaboration offer from a popular comedy production company.",
+      "date": "01 July, 2023",
+      "id": "E35",
+      "caused_by": [
+        "E34"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira organize a comedy night with friends to practice new material.",
+      "date": "20 July, 2023",
+      "id": "E36",
+      "caused_by": [
+        "E35"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira receive positive feedback from friends at the comedy night.",
+      "date": "25 July, 2023",
+      "id": "E37",
+      "caused_by": [
+        "E36"
+      ]
+    },
+    {
+      "sub-event": "Ira suggests Imran to collaborate on creating a comedy podcast.",
+      "date": "02 August, 2023",
+      "id": "E38",
+      "caused_by": [
+        "E37"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira record the first episode of their comedy podcast together.",
+      "date": "05 August, 2023",
+      "id": "E39",
+      "caused_by": [
+        "E38"
+      ]
+    },
+    {
+      "sub-event": "Imran shares a personal childhood memory with Ira, strengthening their emotional bond.",
+      "date": "20 January, 2023",
+      "id": "E40",
+      "caused_by": [
+        "E9"
+      ]
+    },
+    {
+      "sub-event": "Ira reciprocates by sharing a vulnerable experience with Imran, deepening their connection.",
+      "date": "01 February, 2023",
+      "id": "E41",
+      "caused_by": [
+        "E40"
+      ]
+    },
+    {
+      "sub-event": "Imran and Ira engage in a reflective conversation about personal growth and mutual support.",
+      "date": "10 February, 2023",
+      "id": "E42",
+      "caused_by": [
+        "E41"
+      ]
+    },
+    {
+      "sub-event": "Ira surprises Imran with a thoughtful gift symbolizing their shared memories and emotional bond.",
+      "date": "01 March, 2023",
+      "id": "E43",
+      "caused_by": [
+        "E42"
+      ]
+    }
+  ],
+  "events_session_1": [],
+  "session_1_date_time": "4:40 pm on 10 September, 2022",
+  "session_1": [
+    {
+      "text": "Hey Ira, kaise ho? Ek bhaut special cheez share karne ke liye excited hun. Tumse baat karke mood bhot high hai! \ud83d\ude0a",
+      "raw_text": "Hey Ira, kaise ho? Ek bhaut special cheez share karne ke liye excited hun. Tumse baat karke mood bhot high hai! \ud83d\ude0a",
+      "speaker": "Imran",
+      "clean_text": "Hey Ira, kya chal raha hai? Ek super special cheez share karne ke liye bahut excited hoon. Teri baat karke mood bhot high hai! \ud83d\ude0a",
+      "dia_id": "D1:1"
+    },
+    {
+      "text": "Hey Imran! Wow, super curious now! Kya special cheez hai jo share kar rahe ho? Meri tarah, mood bilkul high hai! \ud83d\ude0a",
+      "raw_text": "Hey Imran! Wow, super curious now! Kya special cheez hai jo share kar rahe ho? Meri tarah, mood bilkul high hai! \ud83d\ude0a",
+      "speaker": "Ira",
+      "clean_text": "Hey Imran! Kya scene hai? Kuch special batane wale ho? Mera mood bhi full on hai! \ud83d\ude0a",
+      "dia_id": "D1:2"
+    },
+    {
+      "text": "Haan, yaad hai tune bataya tha meri open-mic show ke baad kaafi struggle hua tha, par tune support kiya tha. Guess what? Main ek naya set likha aur wo super hit hua! \ud83d\ude04",
+      "raw_text": "Haan, yaad hai tune bataya tha meri open-mic show ke baad kaafi struggle hua tha, par tune support kiya tha. Guess what? Main ek naya set likha aur wo super hit hua! \ud83d\ude04",
+      "speaker": "Imran",
+      "clean_text": "Yaar, yaad hai tune mera open-mic show ke baad kaafi struggle kiya tha? Par tune support kiya tha. Ab sun, main ek naya set likha hai aur woh super hit ho gaya! \ud83e\udd29",
+      "dia_id": "D1:3"
+    },
+    {
+      "text": "Wow Imran, that's amazing! Khud ki hard work ka result mila, bohot khushi hui. Share karna set ka snippet! \ud83d\ude0a",
+      "raw_text": "Wow Imran, that's amazing! Khud ki hard work ka result mila, bohot khushi hui. Share karna set ka snippet! \ud83d\ude0a",
+      "speaker": "Ira",
+      "clean_text": "Wow Imran, that's amazing! Tumne khud kaam kiya aur result mila, bohot khushi hui. Set ka snippet share karo na! \ud83d\ude0a",
+      "dia_id": "D1:4"
+    },
+    {
+      "text": "Woah, chal check kar, yeh raha ek line from my new set: \"Life ke jokes ko aise tackle kiya jaise daily open-mic ho!\" \ud83d\ude04",
+      "raw_text": "Woah, chal check kar, yeh raha ek line from my new set: \"Life ke jokes ko aise tackle kiya jaise daily open-mic ho!\" \ud83d\ude04",
+      "speaker": "Imran",
+      "clean_text": "Arey, dekh, yeh le line from my new set: \"Life ke jokes ko aise tackle kiya jaise daily open-mic ho!\" \ud83d\ude04",
+      "dia_id": "D1:5"
+    },
+    {
+      "text": "That's such a cool line, Imran! Your talent shines through. Open-mic ka agla plan kya hai? \ud83c\udf1f",
+      "raw_text": "That's such a cool line, Imran! Your talent shines through. Open-mic ka agla plan kya hai? \ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, cool line! Tera talent chamak rha hai. Open-mic ka next plan kya hai? \ud83c\udf1f",
+      "dia_id": "D1:6"
+    },
+    {
+      "text": "Ira! Mera next plan ae hai kuch celebrity special jokes likhna, bass unka flavour pakadna hai! \ud83e\udd29 Tu kya kehti hai, kuch tips do?",
+      "raw_text": "Ira! Mera next plan ae hai kuch celebrity special jokes likhna, bass unka flavour pakadna hai! \ud83e\udd29 Tu kya kehti hai, kuch tips do?",
+      "speaker": "Imran",
+      "clean_text": "Ira! Mera next plan hai celebrities ke jokes likhna, unka swag pakadna! \ud83c\udf1f Tu kya sochti hai, kuch tips?",
+      "dia_id": "D1:7"
+    },
+    {
+      "text": "Celebrity jokes likhne mein maza aayega, Imran! Mai soch rhi, maybe ek celebrity ki funny picture share karu. [Shares a funny photo of a Bollywood celebrity making a goofy face] Tujhe kaisi lagi?",
+      "raw_text": "Celebrity jokes likhne mein maza aayega, Imran! Mai soch rhi, maybe ek celebrity ki funny picture share karu. [Shares a funny photo of a Bollywood celebrity making a goofy face] Tujhe kaisi lagi?",
+      "speaker": "Ira",
+      "clean_text": "Celebrity jokes likhne mein maza aayega, Imran! Ek funny celebrity picture share karu? Kaisi lagi?",
+      "dia_id": "D1:8"
+    },
+    {
+      "text": "Haan Ira, bhej na woh photo! Excited hoon dekhne ke liye. \ud83d\ude04",
+      "raw_text": "Haan Ira, bhej na woh photo! Excited hoon dekhne ke liye. \ud83d\ude04",
+      "speaker": "Imran",
+      "clean_text": "Haan Ira, woh photo bhej na! Excited hoon dekhne ke liye. \ud83d\ude04",
+      "dia_id": "D1:9"
+    },
+    {
+      "text": "[Shares a photo of Ira with a bright smile sitting next to a poster of a famous Bollywood celebrity]",
+      "raw_text": "[Shares a photo of Ira with a bright smile sitting next to a poster of a famous Bollywood celebrity]",
+      "speaker": "Ira",
+      "clean_text": "Yeh poster dekh kar m toh hamesha inspired feel krti hu. Unki movies se mujhe bohot khushi milti hai!",
+      "dia_id": "D1:10"
+    },
+    {
+      "text": "Ira, photo dekhke maza aaya, Salman bhai ka poster! Movies dekh ke mere mood bhi hamesha high rehta hai! \ud83c\udfac",
+      "raw_text": "Ira, photo dekhke maza aaya, Salman bhai ka poster! Movies dekh ke mere mood bhi hamesha high rehta hai! \ud83c\udfac",
+      "speaker": "Imran",
+      "clean_text": "Bhai, Salman ka poster dekha, mood always high rehta hai movies dekhke! \ud83c\udfac",
+      "dia_id": "D1:11"
+    },
+    {
+      "text": "Salman toh hit hai boss! Koi favourite movie hai uski? Tere liye ek special meme bana dun? \ud83d\ude04",
+      "raw_text": "Salman toh hit hai boss! Koi favourite movie hai uski? Tere liye ek special meme bana dun? \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Salman kaunsa movie pasand hai teri? Meme bana dun kya? \ud83d\ude04",
+      "dia_id": "D1:12"
+    },
+    {
+      "text": "Bilkul Ira, \"Andaz Apna Apna\" all-time favorite hai! Meme bana na mast idea hai, tu zaroor bana! \ud83d\ude04",
+      "raw_text": "Bilkul Ira, \"Andaz Apna Apna\" all-time favorite hai! Meme bana na mast idea hai, tu zaroor bana! \ud83d\ude04",
+      "speaker": "Imran",
+      "clean_text": "Haan Ira, \"Andaz Apna Apna\" toh ultimate favorite hai! Meme banana cool idea hai, zaroor banale! \ud83d\ude04",
+      "dia_id": "D1:13"
+    },
+    {
+      "text": "Andaz Apna Apna abhi bhi full entertaining hai! Meme share karungi, dekho yeh funny wala! \ud83d\ude04",
+      "raw_text": "Andaz Apna Apna abhi bhi full entertaining hai! Meme share karungi, dekho yeh funny wala! \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Andaz Apna Apna abhi bhi mast hai, meme share karunga, dekho funny! \ud83d\ude04",
+      "dia_id": "D1:14"
+    },
+    {
+      "text": "Haan, Andaz Apna Apna never gets old! Meme dekhne ke liye excited hu. Kya plan hai aaj ka?",
+      "raw_text": "Haan, Andaz Apna Apna never gets old! Meme dekhne ke liye excited hu. Kya plan hai aaj ka?",
+      "speaker": "Imran",
+      "clean_text": "Andaz Apna Apna is always fun! Meme dekhne ka mood hai. Aaj ka scene kya hai?",
+      "dia_id": "D1:15"
+    },
+    {
+      "text": "Aaj ka scene chill hai. Kuch interesting karne ka mood hai? Kya plan hai? \ud83d\ude0a",
+      "raw_text": "Aaj ka scene chill hai. Kuch interesting karne ka mood hai? Kya plan hai? \ud83d\ude0a",
+      "speaker": "Ira",
+      "clean_text": "Aaj ka scene kya hai? Kuch interesting karne ka mood hai? Kya plan hai? \ud83d\ude0a",
+      "dia_id": "D1:16"
+    },
+    {
+      "text": "Ira, aaj chamakte stars wale jokes likhne ka mood hai. Tere koi favorite celeb jokes hai? \ud83d\ude04 [shares a photo of a notebook with celebrity-inspired jokes written in it] ",
+      "raw_text": "Ira, aaj chamakte stars wale jokes likhne ka mood hai. Tere koi favorite celeb jokes hai? \ud83d\ude04 [shares a photo of a notebook with celebrity-inspired jokes written in it] ",
+      "speaker": "Imran",
+      "clean_text": "Ira, aaj celeb jokes likhe ka mood hai. Tere koi favorite celeb jokes hai? \ud83d\ude04",
+      "dia_id": "D1:17"
+    },
+    {
+      "text": "Celeb jokes likhna mast idea hai, Imran! Kareena Kapoor jokes hamesha khaas hote hain, kya sochta hai? \ud83d\ude04",
+      "raw_text": "Celeb jokes likhna mast idea hai, Imran! Kareena Kapoor jokes hamesha khaas hote hain, kya sochta hai? \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Celeb jokes likhna cool idea hai, Imran! Kareena Kapoor jokes hamesha hit hote hain, kya lagta hai? \ud83d\ude04",
+      "dia_id": "D1:18"
+    },
+    {
+      "text": "Haan Ira, Kareena jokes hamesha refreshing hote hain! Koi funny joke ya incident yaad aaya uske baare mein? \ud83d\ude04",
+      "raw_text": "Haan Ira, Kareena jokes hamesha refreshing hote hain! Koi funny joke ya incident yaad aaya uske baare mein? \ud83d\ude04",
+      "speaker": "Imran",
+      "clean_text": "Haan Ira, Kareena ke jokes hamesha maza aate hain! Koi funny joke ya incident yaad hai? \ud83d\ude04",
+      "dia_id": "D1:19"
+    },
+    {
+      "text": "Kareena ke jokes are the best! Yaad hai jab unhone \"I can talk English, I can walk English\" dialogue bola tha? \ud83d\ude04",
+      "raw_text": "Kareena ke jokes are the best! Yaad hai jab unhone \"I can talk English, I can walk English\" dialogue bola tha? \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Kareena ke jokes mast hote hain! \"I can talk English, I can walk English\" wala dialogue yaad hai? \ud83d\ude04",
+      "dia_id": "D1:20"
+    },
+    {
+      "text": "Haha, wahi classic dialogue! Uska meme toh bana hi chahiye. Tere paas koi funny Kareena meme hai?",
+      "raw_text": "Haha, wahi classic dialogue! Uska meme toh bana hi chahiye. Tere paas koi funny Kareena meme hai?",
+      "speaker": "Imran",
+      "clean_text": "Arre vo classic dialogue! Uska meme toh banao na. Teri pass koi funny Kareena meme hai kya?",
+      "dia_id": "D1:21"
+    },
+    {
+      "text": "Kareena ki meme nahi hai mere paas lekin uss dialogue pe meme zaroor banati hu, dekhke kya react karte ho! \ud83d\ude04",
+      "raw_text": "Kareena ki meme nahi hai mere paas lekin uss dialogue pe meme zaroor banati hu, dekhke kya react karte ho! \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Kareena ki meme nahi, par uss dialogue se meme banati hu, dekho kya reaction hai! \ud83d\ude04",
+      "dia_id": "D1:22"
+    },
+    {
+      "text": "Wah Ira, meme banane mein expert lagti ho! Always fun with you! \ud83d\ude04 Aaj ke baad ki plan kya hai?",
+      "raw_text": "Wah Ira, meme banane mein expert lagti ho! Always fun with you! \ud83d\ude04 Aaj ke baad ki plan kya hai?",
+      "speaker": "Imran",
+      "clean_text": "Ira, tum toh meme expert ho yaar! Hamesha masti karate hain saath mein! Aaj ke baad kya scene hai?",
+      "dia_id": "D1:23"
+    },
+    {
+      "text": "Dekhte hai kya interesting karte hain aaj. Tumhare weekend ka plan kya hai? \ud83d\ude0a",
+      "raw_text": "Dekhte hai kya interesting karte hain aaj. Tumhare weekend ka plan kya hai? \ud83d\ude0a",
+      "speaker": "Ira",
+      "clean_text": "Aaj kuch interesting plan hai? Tumhara weekend kya scene hai? \ud83d\ude0a",
+      "dia_id": "D1:24"
+    }
+  ],
+  "session_1_facts": {
+    "Imran": [
+      [
+        "Imran has an open-mic show where he previously struggled but received support from Ira.",
+        "D1:3"
+      ],
+      [
+        "Imran has written a new set that turned out to be super hit.",
+        "D1:3"
+      ],
+      [
+        "Imran's new set includes the line: 'Life ke jokes ko aise tackle kiya jaise daily open-mic ho!'",
+        "D1:5"
+      ],
+      [
+        "Imran's next plan is to write jokes about celebrities and capture their swag.",
+        "D1:7"
+      ],
+      [
+        "Imran gets inspired and his mood stays high by watching Salman Khan's movies.",
+        "D1:11"
+      ],
+      [
+        "Imran's ultimate favorite movie is 'Andaz Apna Apna'.",
+        "D1:13"
+      ],
+      [
+        "Imran's mood today is to write celebrity jokes.",
+        "D1:17"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira enjoys getting inspired and feeling happy by looking at a particular poster and watching movies.",
+        "D1:10"
+      ],
+      [
+        "Ira finds humor in Kareena Kapoor's jokes and recalls the dialogue: 'I can talk English, I can walk English'.",
+        "D1:20"
+      ],
+      [
+        "Ira suggests writing jokes about Kareena Kapoor as they are always hit.",
+        "D1:18"
+      ],
+      [
+        "Ira creates memes, including one based on Kareena's dialogue, 'I can talk English, I can walk English'.",
+        "D1:22"
+      ],
+      [
+        "Ira is known to be a meme expert and enjoys having fun together with Imran.",
+        "D1:23"
+      ],
+      [
+        "Ira is curious about Imran's plans for the weekend.",
+        "D1:24"
+      ]
+    ]
+  },
+  "session_1_summary": "Imran and Ira had a conversation at 4:40 pm on 10 September, 2022. Imran shared that his new open-mic set was a hit after Ira supported him through his struggles. Ira praised him, and Imran mentioned his plan to write celebrity special jokes next and asked for tips. Ira shared a funny photo of a Bollywood celebrity, and Imran also enjoyed a picture of Salman Khan shared by Ira. They discussed their favorite movie \"Andaz Apna Apna\" and planned to create memes. They also talked about writing celebrity jokes and shared a delightful conversation full of humor and fun plans for the day.",
+  "events_session_2": [],
+  "session_2_date_time": "11:33 am on 21 September, 2022",
+  "session_2": [
+    {
+      "text": "Ira, recently lost my childhood pet, Tommy. The house feels empty without him. [shares a photo of Tommy]",
+      "raw_text": "Ira, recently lost my childhood pet, Tommy. The house feels empty without him. [shares a photo of Tommy]",
+      "speaker": "Imran",
+      "clean_text": "Ira, mere childhood pet Tommy kho diya. Ghar bina uske adhura sa lagta hai.",
+      "dia_id": "D2:1"
+    },
+    {
+      "text": "Imran, apka dimaag aur dil toh Tommy se juda hoga. Reality ko face karne mein time lagega.Kindest memories dedicated to Tommy.",
+      "raw_text": "Imran, apka dimaag aur dil toh Tommy se juda hoga. Reality ko face karne mein time lagega.Kindest memories dedicated to Tommy.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere dimaag aur dil toh Tommy jaise hai. Reality ke saath deal karne mein thoda time lagega. Sabse yaadgaar lamhe Tommy ko dedicate hai.",
+      "dia_id": "D2:2"
+    },
+    {
+      "text": "[I share a photo of me and Tommy, a fluffy golden retriever, playing in our backyard.]",
+      "raw_text": "[I share a photo of me and Tommy, a fluffy golden retriever, playing in our backyard.]",
+      "speaker": "Imran",
+      "clean_text": "Tommy is ek masti-bhara pupper! Hum backyard mei hamesha maza karte hai saath me.",
+      "dia_id": "D2:3"
+    },
+    {
+      "text": "Tommy ke saath ki hui yaadon ke sapne wapas se judna important hai. Kya ek photo share kar sakte ho Tommy ke saath?",
+      "raw_text": "Tommy ke saath ki hui yaadon ke sapne wapas se judna important hai. Kya ek photo share kar sakte ho Tommy ke saath?",
+      "speaker": "Ira",
+      "clean_text": "Tommy ke saath ki hui yaadon ko fir se yaad karna important hai. Tommy ke saath ek photo share karoge?",
+      "dia_id": "D2:4"
+    },
+    {
+      "text": "Zaroor, yaadon ki hifazat zaroori hai. ",
+      "raw_text": "Zaroor, yaadon ki hifazat zaroori hai. ",
+      "speaker": "Imran",
+      "clean_text": "Zaroor, yaadon ka dhyaan rakhna zaroori hai.",
+      "dia_id": "D2:5"
+    },
+    {
+      "text": "Sending positive vibes for your memory lane. Tommy was a gem in your life, holding onto those moments! Would you like to share a photo reliving those memories?",
+      "raw_text": "Sending positive vibes for your memory lane. Tommy was a gem in your life, holding onto those moments! Would you like to share a photo reliving those memories?",
+      "speaker": "Ira",
+      "clean_text": "Sending positive vibes for your memory lane! Tommy was a gem in your life. Wanna share a photo reliving those memories?",
+      "dia_id": "D2:6"
+    },
+    {
+      "text": "[Shares an old photo of a smiling Tommy with a tennis ball in the backyard]",
+      "raw_text": "[Shares an old photo of a smiling Tommy with a tennis ball in the backyard]",
+      "speaker": "Imran",
+      "clean_text": "Yaad hai woh din! Tommy hamesha khush rehta tha jab hum backyard mein fetch khelte the.",
+      "dia_id": "D2:7"
+    },
+    {
+      "text": "That sounds like a special bond. Photos capture the best moments. Share a memory with Tommy! ",
+      "raw_text": "That sounds like a special bond. Photos capture the best moments. Share a memory with Tommy! ",
+      "speaker": "Ira",
+      "clean_text": "Tommy ke saath ek yaad share karo na! Photos mein best moments aate hain. Lagta hai special bond hai!",
+      "dia_id": "D2:8"
+    },
+    {
+      "text": "[Tommy ke saath ek cute photo share karta hu. Yeh woh din jab hum playing pool games sath mein indulge hate!",
+      "raw_text": "[Tommy ke saath ek cute photo share karta hu. Yeh woh din jab hum playing pool games sath mein indulge hate!",
+      "speaker": "Imran",
+      "clean_text": "Tommy ke saath ek cute photo share kar rha hu. Woh din jab hum pool games khel rhe the!",
+      "dia_id": "D2:9"
+    },
+    {
+      "text": "That sounds like a beautiful memory, Imran. Excited to see the photo of your fun pool games with Tommy.",
+      "raw_text": "That sounds like a beautiful memory, Imran. Excited to see the photo of your fun pool games with Tommy.",
+      "speaker": "Ira",
+      "clean_text": "Imran, sounds like a lovely memory! Can't wait to see your photo with Tommy playing pool.",
+      "dia_id": "D2:10"
+    },
+    {
+      "text": "[shares a photo of young Imran and Tommy, playing near a pool]",
+      "raw_text": "[shares a photo of young Imran and Tommy, playing near a pool]",
+      "speaker": "Imran",
+      "clean_text": "Kya scene hai photo mein? Kuch caption batao!",
+      "dia_id": "D2:11"
+    },
+    {
+      "text": "[Caption: \"Tommy and I enjoying a game of pool together. Memories that bring a smile!\"]",
+      "raw_text": "[Caption: \"Tommy and I enjoying a game of pool together. Memories that bring a smile!\"]",
+      "speaker": "Ira",
+      "clean_text": "Tommy aur main bachpan se pool khel rahe hain. Ye yaadon se hamesha muskurahat aati hai.",
+      "dia_id": "D2:12"
+    },
+    {
+      "text": "Dekh, yeh raha Tommy ke saath ek photo. Us din hamne khub masti ki thi! ",
+      "raw_text": "Dekh, yeh raha Tommy ke saath ek photo. Us din hamne khub masti ki thi! ",
+      "speaker": "Imran",
+      "clean_text": "Dekh, yeh lo Tommy ke saath ek photo. Us din humne masti ki thi!",
+      "dia_id": "D2:13"
+    },
+    {
+      "text": "Aww, Tommy looks full of life in that photo with you, Imran. Such a beautiful bond. Kya yaadein hain!",
+      "raw_text": "Aww, Tommy looks full of life in that photo with you, Imran. Such a beautiful bond. Kya yaadein hain!",
+      "speaker": "Ira",
+      "clean_text": "Arrey, Tommy aur tu ki photo mein kitna mast lag rahe ho, Imran! Kya yaari hai yaar!",
+      "dia_id": "D2:14"
+    },
+    {
+      "text": "Haan, yaari toh unbeatable thi! Tommy mere dil mein hamesha rahega, woh ek sachha dost tha.",
+      "raw_text": "Haan, yaari toh unbeatable thi! Tommy mere dil mein hamesha rahega, woh ek sachha dost tha.",
+      "speaker": "Imran",
+      "clean_text": "Yaar, Tommy mere dil me hamesha rahega. Vo toh true dost tha!",
+      "dia_id": "D2:15"
+    },
+    {
+      "text": "Tommy jaisa dost sabko nahi milta. True friends, like cherished memories, stay close at heart always. [shares a photo of Tommy fetching a ball in the backyard]",
+      "raw_text": "Tommy jaisa dost sabko nahi milta. True friends, like cherished memories, stay close at heart always. [shares a photo of Tommy fetching a ball in the backyard]",
+      "speaker": "Ira",
+      "clean_text": "Tommy jaisa dost sabko nahi milta. Sachche dost hamesha dil ke paas rehte hain.",
+      "dia_id": "D2:16"
+    },
+    {
+      "text": "Ye hai Tommy ke saath ek yaadgaar moment. Uski yaadon mein humesha khush rehta hu. ",
+      "raw_text": "Ye hai Tommy ke saath ek yaadgaar moment. Uski yaadon mein humesha khush rehta hu. ",
+      "speaker": "Imran",
+      "clean_text": "Tommy ke saath ek yaadgaar moment tha. Humesha khush rehta hu uski yaadon mein.",
+      "dia_id": "D2:17"
+    },
+    {
+      "text": "Tommy ka pyaar hamesha tere saath hai. Uski yaadon se rumaniyat hi rumaniyat hai. Tommy kabhi nahi bhoolenge!",
+      "raw_text": "Tommy ka pyaar hamesha tere saath hai. Uski yaadon se rumaniyat hi rumaniyat hai. Tommy kabhi nahi bhoolenge!",
+      "speaker": "Ira",
+      "clean_text": "Tommy hamesha tumhare saath hai. Uski yaadon mein bohot romantic feel hai. Tommy kabhi nahi bhoolenge!",
+      "dia_id": "D2:18"
+    },
+    {
+      "text": "Haan yaar, Tommy ki yaadon mein poora ghar jaise vibrant ho jata hai. Dil ko sukoon milta hai unhe yaad karke.",
+      "raw_text": "Haan yaar, Tommy ki yaadon mein poora ghar jaise vibrant ho jata hai. Dil ko sukoon milta hai unhe yaad karke.",
+      "speaker": "Imran",
+      "clean_text": "Tommy ki yaadon se ghar rang-birangi ho jati hai. Dil ko sukoon milta hai unhe yaad karke.",
+      "dia_id": "D2:19"
+    },
+    {
+      "text": "True, Imran. Memories of loved ones like Tommy add colors to our lives. Cherish them always. [shares a photo of Tommy fetching a ball in the backyard]",
+      "raw_text": "True, Imran. Memories of loved ones like Tommy add colors to our lives. Cherish them always. [shares a photo of Tommy fetching a ball in the backyard]",
+      "speaker": "Ira",
+      "clean_text": "Sahi hai, Imran. Loved ones ke yaadon se life ka rang banta hai. Hamesha cherish karo.",
+      "dia_id": "D2:20"
+    },
+    {
+      "text": "Ira, Thanks for sharing Tommy's memories, sorrows become light when shared with friends like you. [shares an old photo of playing with Tommy in the pool.]",
+      "raw_text": "Ira, Thanks for sharing Tommy's memories, sorrows become light when shared with friends like you. [shares an old photo of playing with Tommy in the pool.]",
+      "speaker": "Imran",
+      "clean_text": "Ira, thanks for sharing Tommy's memories! Dost ke saath dard light ho jata hai.",
+      "dia_id": "D2:21"
+    },
+    {
+      "text": "Imran, dosti ka asar hamesha rahega. Tommy ke yaadon mein humara dil hamesha khush rehta hai.",
+      "raw_text": "Imran, dosti ka asar hamesha rahega. Tommy ke yaadon mein humara dil hamesha khush rehta hai.",
+      "speaker": "Ira",
+      "clean_text": "Imran, dosti humesha rahegi. Tommy ke yaadon mein humara dil hamesha khush rehta hai.",
+      "dia_id": "D2:22"
+    },
+    {
+      "text": "Haan yaar, dosti ke emotions ka koi hisaab nahi. Tommy ke saath ke moments dil ko shanti dete hain.",
+      "raw_text": "Haan yaar, dosti ke emotions ka koi hisaab nahi. Tommy ke saath ke moments dil ko shanti dete hain.",
+      "speaker": "Imran",
+      "clean_text": "Dosti ka koi fix nahi hai. Tommy ke saath time pass maza aata hai.",
+      "dia_id": "D2:23"
+    },
+    {
+      "text": "Imran, dosti ka magic hi yeh hai ki har yaadon mein ek alag pyaar chhupa hota hai. Friends forever! \ud83d\ude0a [shares a photo of Tommy playing with a ball in the backyard]",
+      "raw_text": "Imran, dosti ka magic hi yeh hai ki har yaadon mein ek alag pyaar chhupa hota hai. Friends forever! \ud83d\ude0a [shares a photo of Tommy playing with a ball in the backyard]",
+      "speaker": "Ira",
+      "clean_text": "Dosti mein alag magic hai, har yaadon mein pyaar chhupa hota hai. Friends forever! \ud83d\ude0a",
+      "dia_id": "D2:24"
+    }
+  ],
+  "session_2_facts": {
+    "Imran": [
+      [
+        "Imran lost his childhood pet named Tommy, which has left his home feeling incomplete.",
+        "D2:1"
+      ],
+      [
+        "Imran cherishes memories of playing with Tommy in the backyard and recalls joyful times with him.",
+        "D2:3"
+      ],
+      [
+        "Imran shared a cute photo of him playing pool games with Tommy, recalling a fun memory.",
+        "D2:9"
+      ],
+      [
+        "Imran expresses that Tommy will always be in his heart and considers him a true friend.",
+        "D2:15"
+      ],
+      [
+        "Imran finds peace and comfort in remembering Tommy's memories, which bring color and joy to his home.",
+        "D2:19"
+      ],
+      [
+        "Imran feels that spending time with Tommy was fun and passes time well with a true friend.",
+        "D2:23"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira consoles Imran by comparing his qualities to Tommy, the pet he lost, and emphasizes the importance of dealing with reality over time.",
+        "D2:2"
+      ],
+      [
+        "Ira encourages Imran to remember the moments spent with Tommy, suggests sharing a photo of him and mentions the significance of reliving memories.",
+        "D2:4"
+      ],
+      [
+        "Ira appreciates the bond between Imran and Tommy, finds the photo of Imran and Tommy playing pool lovely, and praises their friendship.",
+        "D2:14"
+      ],
+      [
+        "Ira believes that true friends like Tommy always stay close to the heart and bring happiness.",
+        "D2:16"
+      ],
+      [
+        "Ira emphasizes that memories of loved ones add a romantic feel to life and assures Imran that Tommy will never be forgotten.",
+        "D2:18"
+      ],
+      [
+        "Ira acknowledges the comforting effect of remembering loved ones like Tommy, highlights the beauty of life colored by memories, and advises to always cherish them.",
+        "D2:20"
+      ],
+      [
+        "Ira expresses that friendship has a unique magic where love is hidden in every memory, and emphasizes being friends forever.",
+        "D2:24"
+      ]
+    ]
+  },
+  "session_2_summary": "Imran shared with Ira that he recently lost his childhood pet, Tommy, and felt the house was empty without him. Ira empathized, encouraging Imran to cherish his memories with Tommy. They exchanged photos of Tommy, reminiscing about their special bond and fun moments together, like playing pool games. Imran expressed gratitude for Ira's support, noting that sharing memories with a friend like her made his sorrows lighter. They both highlighted the vibrant colors that memories of loved ones like Tommy add to their lives, emphasizing the importance of cherishing such moments. The conversations occurred on various dates in September 2022, showing the strong bond and emotional support between Imran and Ira as they reminisced about their beloved pet and friendship.",
+  "events_session_3": [],
+  "session_3_date_time": "3:15 pm on 6 October, 2022",
+  "session_3": [
+    {
+      "text": "Ira, I'm feeling a bit lost after losing my job. It's unsettling. Kaise cope karu?",
+      "raw_text": "Ira, I'm feeling a bit lost after losing my job. It's unsettling. Kaise cope karu?",
+      "speaker": "Imran",
+      "clean_text": "Ira, I'm feeling lost after losing my job. It's unsettling. Kaise manage karu?",
+      "dia_id": "D3:1"
+    },
+    {
+      "text": "I'm here for you, Imran. Remember, challenges strengthen us. Let's overcome this together. Kya specific domain mein job search kar rahe ho?",
+      "raw_text": "I'm here for you, Imran. Remember, challenges strengthen us. Let's overcome this together. Kya specific domain mein job search kar rahe ho?",
+      "speaker": "Ira",
+      "clean_text": "Imran, main yahaan hu tere liye. Challenges se toh strong hota hai. Saath milke ye tackle karte hai. Konsi domain mein job dhundh rahe ho?",
+      "dia_id": "D3:2"
+    },
+    {
+      "text": "Product mein hoke job dhoondh raha hu. Yeh sudden change mujhe thoda gadbada gaya. Tere saath discussion karke thoda achha feel hota hai.",
+      "raw_text": "Product mein hoke job dhoondh raha hu. Yeh sudden change mujhe thoda gadbada gaya. Tere saath discussion karke thoda achha feel hota hai.",
+      "speaker": "Imran",
+      "clean_text": "Product mein job dhundh raha hu. Yeh sudden change mujhe thoda gadbada gaya. Tere saath discussion karke thoda achha feel hota hai.",
+      "dia_id": "D3:3"
+    },
+    {
+      "text": "Imran, saath mein har mushkil asaan hoti hai. Koi bhi opportunity ya interests jisse relate karte ho? Kya khaas karke product domain mein pasand hai?",
+      "raw_text": "Imran, saath mein har mushkil asaan hoti hai. Koi bhi opportunity ya interests jisse relate karte ho? Kya khaas karke product domain mein pasand hai?",
+      "speaker": "Ira",
+      "clean_text": "Imran, saath mein sab kuch easy hota hai. Kuch interesting ya pasandida hai product domain mein?",
+      "dia_id": "D3:4"
+    },
+    {
+      "text": "Mujhe UX design mein interest hai. Yeh meri passion pe based job chahiye. Tere saath discuss karke clarity milti hai.",
+      "raw_text": "Mujhe UX design mein interest hai. Yeh meri passion pe based job chahiye. Tere saath discuss karke clarity milti hai.",
+      "speaker": "Imran",
+      "clean_text": "Mujhe UX design mein interest hai. Mujhe passion pe based job chahiye. Tere saath discuss karke clarity milti hai.",
+      "dia_id": "D3:5"
+    },
+    {
+      "text": "Imran, passion ke saath kaam karna zaroori hai. Tu strong hai, ek naya job find karke aur apne dreams ko chase karte raho. [Shares a photo of a sketchbook filled with UX design ideas.]",
+      "raw_text": "Imran, passion ke saath kaam karna zaroori hai. Tu strong hai, ek naya job find karke aur apne dreams ko chase karte raho. [Shares a photo of a sketchbook filled with UX design ideas.]",
+      "speaker": "Ira",
+      "clean_text": "Imran, passion ke saath kaam karna zaroori hai. Tu strong hai, ek naya job dhund aur apne sapne chase karte raho.",
+      "dia_id": "D3:6"
+    },
+    {
+      "text": "Thanks, Ira. Tere support se motivation milta hai. Office stress se nikalke decisions lena easier ho jata hai. ",
+      "raw_text": "Thanks, Ira. Tere support se motivation milta hai. Office stress se nikalke decisions lena easier ho jata hai. ",
+      "speaker": "Imran",
+      "clean_text": "Thanks, Ira! Tera support bahut help karta hai. Office stress se nikalke decisions lena easy ho jata hai.",
+      "dia_id": "D3:7"
+    },
+    {
+      "text": "Imran, main hamesha yahin rahungi, tujhe support karne ke liye. Kab se start kar rahe ho new job search?",
+      "raw_text": "Imran, main hamesha yahin rahungi, tujhe support karne ke liye. Kab se start kar rahe ho new job search?",
+      "speaker": "Ira",
+      "clean_text": "Imran, main hamesha yahin rahungi. Tujhe support karne ke liye, new job search kab se start kar rahe ho?",
+      "dia_id": "D3:8"
+    },
+    {
+      "text": "Next month se actively search karunga. Thanks, Ira, tera constant support mere liye invaluable hai. [shares a screenshot of UX design courses]",
+      "raw_text": "Next month se actively search karunga. Thanks, Ira, tera constant support mere liye invaluable hai. [shares a screenshot of UX design courses]",
+      "speaker": "Imran",
+      "clean_text": "Next month se main actively search karunga. Thanks, Ira, tera constant support mere liye bahut important hai.",
+      "dia_id": "D3:9"
+    },
+    {
+      "text": "Imran, yeh le, ek photo meri virtual family cooking challenge ki participation ki. Isme hum sath mei seekhenge aur enjoy karenge.",
+      "raw_text": "Imran, yeh le, ek photo meri virtual family cooking challenge ki participation ki. Isme hum sath mei seekhenge aur enjoy karenge.",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh le, ek photo meri virtual family cooking challenge mei participation ki. Hum sath mei seekhenge aur masti karenge.",
+      "dia_id": "D3:10"
+    },
+    {
+      "text": "Wow, I can't wait to see what you create! Cooking ke through connect karna, bohot special hai. Stay connected aur motivate karte raho.",
+      "raw_text": "Wow, I can't wait to see what you create! Cooking ke through connect karna, bohot special hai. Stay connected aur motivate karte raho.",
+      "speaker": "Imran",
+      "clean_text": "Can't wait to see what you cook up! Cooking se jude raho, bohot special hai. Keep in touch and stay motivated!",
+      "dia_id": "D3:11"
+    },
+    {
+      "text": "Imran, yeh photo hai meri first attempt at baking cookies, ek classmate ke sath. Cooking can be so therapeutic. ",
+      "raw_text": "Imran, yeh photo hai meri first attempt at baking cookies, ek classmate ke sath. Cooking can be so therapeutic. ",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh photo hai meri first attempt at baking cookies with a classmate. Cooking is so therapeutic, na?",
+      "dia_id": "D3:12"
+    },
+    {
+      "text": "That's awesome, Ira! Cooking can really be calming. Your cookies look delicious, great talent! Stress buster, hai na?",
+      "raw_text": "That's awesome, Ira! Cooking can really be calming. Your cookies look delicious, great talent! Stress buster, hai na?",
+      "speaker": "Imran",
+      "clean_text": "Ira, wah! Cooking karke asli maza ata hai. Tere cookies bahot yummy lag rahe hain, super talent! Stress buster, kya bolte ho?",
+      "dia_id": "D3:13"
+    },
+    {
+      "text": "Imran, bilkul! Cooking se khushi milti hai. Virtual cooking challenge ko enjoy karna, hamesha positive rehne ka secret hai.",
+      "raw_text": "Imran, bilkul! Cooking se khushi milti hai. Virtual cooking challenge ko enjoy karna, hamesha positive rehne ka secret hai.",
+      "speaker": "Ira",
+      "clean_text": "Bilkul! Cooking karke khushi milti hai. Virtual cooking challenge ko enjoy karna, hamesha positive rehne ka secret hai.",
+      "dia_id": "D3:14"
+    },
+    {
+      "text": "Ira, positivity is key. Tere sath baat karke dukh bhi light ho jata hai. Khush rehne ka tareeka sikha rahi hai tu.",
+      "raw_text": "Ira, positivity is key. Tere sath baat karke dukh bhi light ho jata hai. Khush rehne ka tareeka sikha rahi hai tu.",
+      "speaker": "Imran",
+      "clean_text": "Ira, positive vibes chahiye. Tujhse baat karke dil light ho jata hai. Happy rehne ka funda sikha rahi hai tu.",
+      "dia_id": "D3:15"
+    },
+    {
+      "text": "Imran, tumhara friendship aur positive attitude mere liye bhi bahut important hai. Humesha yahi rahungi, mera support hamesha rahega.",
+      "raw_text": "Imran, tumhara friendship aur positive attitude mere liye bhi bahut important hai. Humesha yahi rahungi, mera support hamesha rahega.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera friendship aur positive attitude mere liye much important hai. Humesha yahi rahungi, mera support hamesha rahega.",
+      "dia_id": "D3:16"
+    },
+    {
+      "text": "Thank you, Ira. Tera saath mera career shift smooth banayega. Aise hi connected rehna, grateful hoon tere liye.",
+      "raw_text": "Thank you, Ira. Tera saath mera career shift smooth banayega. Aise hi connected rehna, grateful hoon tere liye.",
+      "speaker": "Imran",
+      "clean_text": "Thanks, Ira. Tera support meri career journey ko easy banayega. Aise hi touch me rehna, tere liye thankful hoon.",
+      "dia_id": "D3:17"
+    },
+    {
+      "text": "Imran, teri success mei mera pyaar aur support hamesha rahega. Aise hi tere saath rehkar khushi milti hai. Allah tumhe success de!",
+      "raw_text": "Imran, teri success mei mera pyaar aur support hamesha rahega. Aise hi tere saath rehkar khushi milti hai. Allah tumhe success de!",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri success mei humesha mera pyaar aur support rahega. Stay happy, bhai! Allah tumhe aur bhi success de!",
+      "dia_id": "D3:18"
+    },
+    {
+      "text": "Ira, tere good wishes ke liye shukriya. Teri blessings hamesha saath rahengi. Aap kaise ho?",
+      "raw_text": "Ira, tere good wishes ke liye shukriya. Teri blessings hamesha saath rahengi. Aap kaise ho?",
+      "speaker": "Imran",
+      "clean_text": "Ira, thanks for your good wishes. Your blessings will always be with me. Tum kaise ho?",
+      "dia_id": "D3:19"
+    },
+    {
+      "text": "Main toh bhadiya hu, Imran. Tumhara saath dene se mera din bhi khubsurat hota hai. Kaise ho tum?",
+      "raw_text": "Main toh bhadiya hu, Imran. Tumhara saath dene se mera din bhi khubsurat hota hai. Kaise ho tum?",
+      "speaker": "Ira",
+      "clean_text": "Main toh mast hu, Imran. Tumhare saath mera din bhi achha hota hai. Tum kaise ho?",
+      "dia_id": "D3:20"
+    },
+    {
+      "text": "Main bhi theek hu, bas thoda decisions mein stuck feel kar raha hu. Tumse baat karke achha laga. Kuch tips de sakte ho?",
+      "raw_text": "Main bhi theek hu, bas thoda decisions mein stuck feel kar raha hu. Tumse baat karke achha laga. Kuch tips de sakte ho?",
+      "speaker": "Imran",
+      "clean_text": "M bhi theek hu, bas stuck feel ho raha hai decisions mein. Tumse baat karke achha laga. Kuch tips de sakte ho?",
+      "dia_id": "D3:21"
+    },
+    {
+      "text": "Imran, decision-making mein stay calm, options weigh karke life experience aur intuition ka use karo. Sab thik ho jayega.",
+      "raw_text": "Imran, decision-making mein stay calm, options weigh karke life experience aur intuition ka use karo. Sab thik ho jayega.",
+      "speaker": "Ira",
+      "clean_text": "Imran, calm reh, options dekh ke decision lo, life experience aur intuition ka istemal karo. Sab manage ho jayega.",
+      "dia_id": "D3:22"
+    },
+    {
+      "text": "Thanks, Ira. Tere guidance se sab kuch manageable lag raha hai. Barabar maan rakhiyo, hamesha grateful hoon. [shares a photo of his sketchbook with detailed UX designs]",
+      "raw_text": "Thanks, Ira. Tere guidance se sab kuch manageable lag raha hai. Barabar maan rakhiyo, hamesha grateful hoon. [shares a photo of his sketchbook with detailed UX designs]",
+      "speaker": "Imran",
+      "clean_text": "Thanks, Ira! Teri advice se sab manageable lag raha hai. Hamesha grateful hoon, yaar!",
+      "dia_id": "D3:23"
+    },
+    {
+      "text": "Imran, tere shaktishaali decisions ke liye main hamesha yahin hungi. Risk le kar aage badho, dher saari duayein hain. Stay strong! ",
+      "raw_text": "Imran, tere shaktishaali decisions ke liye main hamesha yahin hungi. Risk le kar aage badho, dher saari duayein hain. Stay strong! ",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere decisions ke liye main hamesha yahin hungi. Risk le kar aage badho, dher saari duayein hain. Stay strong!",
+      "dia_id": "D3:24"
+    }
+  ],
+  "session_3_facts": {
+    "Imran": [
+      [
+        "Imran lost his job recently and is feeling lost and unsettled.",
+        "D3:1"
+      ],
+      [
+        "Imran is looking for a job in the product domain, particularly interested in UX design.",
+        "D3:3"
+      ],
+      [
+        "Imran finds discussing with Ira helpful for gaining clarity and feeling better.",
+        "D3:3"
+      ],
+      [
+        "Imran mentioned that office stress makes decision-making easier after talking to Ira.",
+        "D3:7"
+      ],
+      [
+        "Imran plans to actively start searching for a new job next month.",
+        "D3:9"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira is supportive of Imran after he lost his job and encourages him to face challenges together.",
+        "D3:2"
+      ],
+      [
+        "Ira emphasizes the importance of working with passion and encourages Imran to chase his dreams.",
+        "D3:6"
+      ],
+      [
+        "Ira participates in a virtual family cooking challenge and finds cooking therapeutic and enjoyable.",
+        "D3:10"
+      ],
+      [
+        "Ira shares a photo of her first attempt at baking cookies with a classmate.",
+        "D3:12"
+      ],
+      [
+        "Ira believes in staying positive and enjoying virtual cooking challenges for happiness.",
+        "D3:14"
+      ]
+    ]
+  },
+  "session_3_summary": "Imran and Ira have a strong and supportive friendship. Previously, they reminisced about Imran's childhood pet, Tommy, highlighting the importance of cherishing memories. Imran shared his job loss struggle, and Ira encouraged him to seek a job in his passion, UX design. They exchanged photos of their respective interests in UX design and virtual cooking challenges, showing their mutual support and motivation. Imran expressed gratitude for Ira's constant support, finding comfort in their conversations. Ira provided guidance on decision-making, emphasizing the importance of staying positive. The current conversation shows Imran seeking tips from Ira on decision-making and receiving her encouragement to take risks in pursuing his goals, with both expressing gratitude and support for each other. The conversations",
+  "events_session_4": [
+    {
+      "sub-event": "Imran and Ira attend a stand-up comedy workshop together to enhance their comedic skills.",
+      "date": "05 November, 2022",
+      "id": "E28",
+      "caused_by": []
+    }
+  ],
+  "session_4_date_time": "11:43 am on 5 November, 2022",
+  "session_4": [
+    {
+      "text": "Ira, that stand-up comedy workshop was intense! Ready to perfect our craft and conquer the stage together?",
+      "raw_text": "Ira, that stand-up comedy workshop was intense! Ready to perfect our craft and conquer the stage together?",
+      "speaker": "Imran",
+      "clean_text": "Ira, woh stand-up comedy workshop bahut intense tha! Stage pe perfection karne aur conquer karne ke liye tyaar ho?",
+      "dia_id": "D4:1"
+    },
+    {
+      "text": "Imran, dil se congrats! Bahut proud hoon tum pe. Kaise lag raha tha stage pe apne jokes share karte hue?",
+      "raw_text": "Imran, dil se congrats! Bahut proud hoon tum pe. Kaise lag raha tha stage pe apne jokes share karte hue?",
+      "speaker": "Ira",
+      "clean_text": "Imran, congo yaar! Maza aya stage pe jokes sunke?",
+      "dia_id": "D4:2"
+    },
+    {
+      "text": "Haan yaar, maza toh aaya par thoda nervous bhi tha. Sab ke saamne bolne mein confidence ban gaya hai!",
+      "raw_text": "Haan yaar, maza toh aaya par thoda nervous bhi tha. Sab ke saamne bolne mein confidence ban gaya hai!",
+      "speaker": "Imran",
+      "clean_text": "Haan yaar, maza aaya par thoda nervous bhi tha. Ab confidence aa gaya hai sabke saamne bolne mein!",
+      "dia_id": "D4:3"
+    },
+    {
+      "text": "Imran, itne saare highs and lows ke beech, apne confidence ka saath nibhaya, bohot proud feel kar rahi hu main.",
+      "raw_text": "Imran, itne saare highs and lows ke beech, apne confidence ka saath nibhaya, bohot proud feel kar rahi hu main.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere itne highs and lows me, tune apne confidence ka saath diya, m toh bohot proud feel kar rahi hu.",
+      "dia_id": "D4:4"
+    },
+    {
+      "text": "I appreciate your constant support and proud of how far we've come together, Ira. Glad to have you!",
+      "raw_text": "I appreciate your constant support and proud of how far we've come together, Ira. Glad to have you!",
+      "speaker": "Imran",
+      "clean_text": "Ira, tumhara support appreciate krta hu. Hum bohot aage badh gye hai saath mein. Tumhe paas me hoke achha lgta hai!",
+      "dia_id": "D4:5"
+    },
+    {
+      "text": "Imran, humara ek-dusre ka saath hona hi humein majboot banata hai. Ekdum sahi feel hota hai!",
+      "raw_text": "Imran, humara ek-dusre ka saath hona hi humein majboot banata hai. Ekdum sahi feel hota hai!",
+      "speaker": "Ira",
+      "clean_text": "Imran, jab hum saath hote hain, tab maza aata hai!",
+      "dia_id": "D4:6"
+    },
+    {
+      "text": "Sach mein, Ira. Tere saath jeena ek alag hi maza hai. Life ke stress pe accha impact ho jata hai.",
+      "raw_text": "Sach mein, Ira. Tere saath jeena ek alag hi maza hai. Life ke stress pe accha impact ho jata hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, teri company mein life behtareen ho jati hai. Tension kam ho jata hai.",
+      "dia_id": "D4:7"
+    },
+    {
+      "text": "Imran, teri khushi mein khushi milti hai, aise hi haste raho. Dil se support hamesha rahega.",
+      "raw_text": "Imran, teri khushi mein khushi milti hai, aise hi haste raho. Dil se support hamesha rahega.",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri khushi me maza aata hai, haste raho. Mere support hamesha rahega.",
+      "dia_id": "D4:8"
+    },
+    {
+      "text": "Ira, yeh friendship hamare liye precious hai. Chahiye tu hamesha mere saath rahe.",
+      "raw_text": "Ira, yeh friendship hamare liye precious hai. Chahiye tu hamesha mere saath rahe.",
+      "speaker": "Imran",
+      "clean_text": "Ira, hamari dosti bahut important hai. Tu hamesha mere saath rahega na?",
+      "dia_id": "D4:9"
+    },
+    {
+      "text": "Imran, humesha tera saath dunga, dosti ke rishte dil se judte hain. Aage bhi saath chalenge.",
+      "raw_text": "Imran, humesha tera saath dunga, dosti ke rishte dil se judte hain. Aage bhi saath chalenge.",
+      "speaker": "Ira",
+      "clean_text": "Imran, hum hamesha tere saath rahenge, dosti dil se hoti hai. Aage bhi saath mei rahenge.",
+      "dia_id": "D4:10"
+    },
+    {
+      "text": "Ira, tera saath meri emotional anchor hai. Tu mere liye khaas hai, hamesha rahogi na?",
+      "raw_text": "Ira, tera saath meri emotional anchor hai. Tu mere liye khaas hai, hamesha rahogi na?",
+      "speaker": "Imran",
+      "clean_text": "Ira, tu mera emotional support hai. Humesha mere saath hogi na?",
+      "dia_id": "D4:11"
+    },
+    {
+      "text": "Imran, hamesha teri emotional support rahungi, tu kabhi bhi chahiye, bas yaad rakhna.",
+      "raw_text": "Imran, hamesha teri emotional support rahungi, tu kabhi bhi chahiye, bas yaad rakhna.",
+      "speaker": "Ira",
+      "clean_text": "Imran, main hamesha tera saath dungi, jab bhi zaroorat ho, bas yaad rakhna.",
+      "dia_id": "D4:12"
+    },
+    {
+      "text": "Ira, yaad rakhunga. Ek cheez share kar raha hoon. Yeh hai Tommy, meri bachpan ki yaad.",
+      "raw_text": "Ira, yaad rakhunga. Ek cheez share kar raha hoon. Yeh hai Tommy, meri bachpan ki yaad.",
+      "speaker": "Imran",
+      "clean_text": "Ira, yaad rakhna. Sun, ek cheez bol rha hoon. Yeh hai Tommy, meri childhood ka yaar.",
+      "dia_id": "D4:13"
+    },
+    {
+      "text": "Imran, Tommy tere liye ek bahut pyaara dost tha. Uski yaadon ko sambhal kar rakhna, har pal yaad aayega who dosti ka ehsaas.",
+      "raw_text": "Imran, Tommy tere liye ek bahut pyaara dost tha. Uski yaadon ko sambhal kar rakhna, har pal yaad aayega who dosti ka ehsaas.",
+      "speaker": "Ira",
+      "clean_text": "Imran, Tommy was tera best dost. Uski yaadon ko yaad rakhna, kabhi bhi yaar ayega wo dosti ka feeling.",
+      "dia_id": "D4:14"
+    },
+    {
+      "text": "[Ira, yeh dekh, yeh hai ek purana photo Tommy ke saath. Uske bina zindagi adhuri si lagti hai.",
+      "raw_text": "[Ira, yeh dekh, yeh hai ek purana photo Tommy ke saath. Uske bina zindagi adhuri si lagti hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, check this out, purana photo Tommy ke saath. Uske bina life adhuri si lagti hai.",
+      "dia_id": "D4:15"
+    },
+    {
+      "text": "Imran, Tommy ke saath ke wo precious moments hamesha yaad rakhna, dosti ki value samajhna. [Shares an old photo of Tommy and Imran playing in the garden.]",
+      "raw_text": "Imran, Tommy ke saath ke wo precious moments hamesha yaad rakhna, dosti ki value samajhna. [Shares an old photo of Tommy and Imran playing in the garden.]",
+      "speaker": "Ira",
+      "clean_text": "Imran, Tommy ke saath ke woh moments yaad rakhna, dosti samajhna.",
+      "dia_id": "D4:16"
+    },
+    {
+      "text": "[Ira, yeh Tommy ka photo hai. Uski yaadon mein khoye rehna achha lagta hai. Dosti ka ehsaas sambhalta hai.]",
+      "raw_text": "[Ira, yeh Tommy ka photo hai. Uski yaadon mein khoye rehna achha lagta hai. Dosti ka ehsaas sambhalta hai.]",
+      "speaker": "Imran",
+      "clean_text": "Tommy ki photo ke liye CAPTION aur share karne ka INTENT bata do na please.",
+      "dia_id": "D4:17"
+    },
+    {
+      "text": "Imran, Tommy ke saath ke moments yaad aate hain. Dosti ka ehsaas yaad rakh! Bhagwan unki aatma ko shanti de. [shares an old photo with Tommy playing fetch]",
+      "raw_text": "Imran, Tommy ke saath ke moments yaad aate hain. Dosti ka ehsaas yaad rakh! Bhagwan unki aatma ko shanti de. [shares an old photo with Tommy playing fetch]",
+      "speaker": "Ira",
+      "clean_text": "Tommy ke saath ke pal yaad aate hain. Dosti ka feel yaad rakh! Bhagwan unki aatma ko shanti de.",
+      "dia_id": "D4:18"
+    },
+    {
+      "text": "[Ira, yaad hai Tommy ke saath yeh photo kheenchne wala din? Bohot yaad aata hai!]",
+      "raw_text": "[Ira, yaad hai Tommy ke saath yeh photo kheenchne wala din? Bohot yaad aata hai!]",
+      "speaker": "Imran",
+      "clean_text": "No worries, just provide the context in English and I can help you with the modified dialogue.",
+      "dia_id": "D4:19"
+    },
+    {
+      "text": "Tommy is forever in my heart. May his soul rest in peace.  [A childhood photo with Tommy, my beloved companion] ",
+      "raw_text": "Tommy is forever in my heart. May his soul rest in peace.  [A childhood photo with Tommy, my beloved companion] ",
+      "speaker": "Ira",
+      "clean_text": "Tommy hamesha mera dil me rahega. Uski aatma ko shaanti mile.",
+      "dia_id": "D4:20"
+    },
+    {
+      "text": "[Ira, here's a photo of Tommy, my childhood pet. He'll always hold a special place in my heart.]",
+      "raw_text": "[Ira, here's a photo of Tommy, my childhood pet. He'll always hold a special place in my heart.]",
+      "speaker": "Imran",
+      "clean_text": "Ira, yeh lo Tommy ka photo, mera childhood ka pet. Mere dil mein hamesha special jagah rakhenga.",
+      "dia_id": "D4:21"
+    },
+    {
+      "text": "Imran, Tommy se judi yaadon ko hamesha dil me rakhna. Dosti ka ehsaas hamesha Madhur rakho.",
+      "raw_text": "Imran, Tommy se judi yaadon ko hamesha dil me rakhna. Dosti ka ehsaas hamesha Madhur rakho.",
+      "speaker": "Ira",
+      "clean_text": "Imran, Tommy ke saath ke memories ko yaad rakhna always. Dosti ko sweetly feel karte rehna.",
+      "dia_id": "D4:22"
+    },
+    {
+      "text": "[Ira didn't reply and smiled at the photo, feeling the depth of Imran's affection and their shared memories.] ",
+      "raw_text": "[Ira didn't reply and smiled at the photo, feeling the depth of Imran's affection and their shared memories.] ",
+      "speaker": "Imran",
+      "clean_text": "Kya ho raha hai?",
+      "dia_id": "D4:23"
+    },
+    {
+      "text": "Imran, bas aise hi dostana banter chal raha hai, tere Tommy ke baare mein baat kar rahe the.",
+      "raw_text": "Imran, bas aise hi dostana banter chal raha hai, tere Tommy ke baare mein baat kar rahe the.",
+      "speaker": "Ira",
+      "clean_text": "Imran, bhai, Tommy kaisa hai?",
+      "dia_id": "D4:24"
+    }
+  ],
+  "session_4_facts": {
+    "Imran": [
+      [
+        "Imran attended an intense stand-up comedy workshop to work on perfecting his performance on stage.",
+        "D4:1"
+      ],
+      [
+        "Imran felt nervous but enjoyed performing on stage and now feels confident speaking in front of others.",
+        "D4:3"
+      ],
+      [
+        "Imran appreciates Ira's support and feels they have progressed a lot together.",
+        "D4:5"
+      ],
+      [
+        "Imran values the company of Ira as it makes his life better and reduces tension.",
+        "D4:7"
+      ],
+      [
+        "Imran considers Ira his emotional support and wants to ensure she will always be there for him.",
+        "D4:11"
+      ],
+      [
+        "Imran shared a childhood memory about his friend Tommy and values their friendship.",
+        "D4:13"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira supports and feels proud of Imran's journey through highs and lows, especially in building his confidence.",
+        "D4:4"
+      ],
+      [
+        "Ira enjoys being in Imran's company and finds life better with him around.",
+        "D4:6"
+      ],
+      [
+        "Ira expresses that her happiness lies in seeing Imran happy and promises to always support him.",
+        "D4:8"
+      ],
+      [
+        "Ira reassures Imran of their strong friendship and willingness to always be there for him.",
+        "D4:10"
+      ],
+      [
+        "Ira reminisced about Imran's friend Tommy, acknowledging his importance in Imran's life.",
+        "D4:14"
+      ],
+      [
+        "Ira values the memories shared with Imran and emphasizes the importance of cherishing their friendship.",
+        "D4:22"
+      ]
+    ]
+  },
+  "session_4_summary": "Imran and Ira share a strong bond of friendship, supporting and encouraging each other through various life experiences. Imran reminisces about his childhood pet, Tommy, with Ira, showcasing their emotional connection and shared memories. The two also engage in supportive conversations about Imran's job struggles, pursuing passions like UX design and stand-up comedy, and provide constant encouragement to each other. They express gratitude for their friendship and the positive impact it has on their lives. Time references indicate an ongoing and consistent exchange between the two, with the current conversation reflecting their continued support and camaraderie as they share memories of Tommy and engage in friendly banter.",
+  "events_session_5": [
+    {
+      "sub-event": "Imran performs at an open-mic in Andheri for the first time.",
+      "date": "15 November, 2022",
+      "id": "E1",
+      "caused_by": []
+    },
+    {
+      "sub-event": "Imran feels anxious before the open-mic show.",
+      "date": "15 November, 2022",
+      "id": "E2",
+      "caused_by": [
+        "E1"
+      ]
+    },
+    {
+      "sub-event": "Imran opens up to Ira about his anxiety.",
+      "date": "16 November, 2022",
+      "id": "E3",
+      "caused_by": [
+        "E2"
+      ]
+    }
+  ],
+  "session_5_date_time": "6:08 pm on 16 November, 2022",
+  "session_5": [
+    {
+      "text": "Ira, after the open-mic, I felt relieved that my revised set worked. Your support means everything. \ud83d\ude4f",
+      "raw_text": "Ira, after the open-mic, I felt relieved that my revised set worked. Your support means everything. \ud83d\ude4f",
+      "speaker": "Imran",
+      "clean_text": "Ira, open-mic ke baad, mujhe relief mila ki mera revised set kaam kr rha tha. Teri support sab kuch hai. \ud83d\ude4f",
+      "dia_id": "D5:1"
+    },
+    {
+      "text": "Imran, teri journey mein main hamesha saath rahoongi. Surprise party or anniversary ko kaisa feel kiya?",
+      "raw_text": "Imran, teri journey mein main hamesha saath rahoongi. Surprise party or anniversary ko kaisa feel kiya?",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri journey mein main hamesha rahungi. Surprise party or anniversary ka feel kaisa tha?",
+      "dia_id": "D5:2"
+    },
+    {
+      "text": "Party ka vibe kuch alag tha, par accha laga kisi ne mere efforts ko celebrate kiya. [Shares a photo of a cake with \"Congrats Imran\" written on it.]",
+      "raw_text": "Party ka vibe kuch alag tha, par accha laga kisi ne mere efforts ko celebrate kiya. [Shares a photo of a cake with \"Congrats Imran\" written on it.]",
+      "speaker": "Imran",
+      "clean_text": "Party ka scene thoda hatke tha, par maza aaya jab kisi ne meri mehnat ko appreciate kiya.",
+      "dia_id": "D5:3"
+    },
+    {
+      "text": "That's amazing, Imran! Dosti mein support ka magic hai. Aage ka plan kya hai passions ke saath?",
+      "raw_text": "That's amazing, Imran! Dosti mein support ka magic hai. Aage ka plan kya hai passions ke saath?",
+      "speaker": "Ira",
+      "clean_text": "Imran, wah! Dosti mein support ka kamaal hai. Aage kya scene hai passions ke saath?",
+      "dia_id": "D5:4"
+    },
+    {
+      "text": "Ira, ab UX design mein kuch exciting projects shuru karne wala hoon, stand-up comedy pe bhi focus badhana hai. Tu kya plan kar rahi hai next month tak?",
+      "raw_text": "Ira, ab UX design mein kuch exciting projects shuru karne wala hoon, stand-up comedy pe bhi focus badhana hai. Tu kya plan kar rahi hai next month tak?",
+      "speaker": "Imran",
+      "clean_text": "Ira, main kuch exciting UX design projects shuru karne wala hoon, stand-up comedy pe bhi focus karna hai. Tu next month tak kya plan kar rahi hai?",
+      "dia_id": "D5:5"
+    },
+    {
+      "text": "Imran, main creative challenges aur new recipes ke planning mein busy rahungi. Aapka stand-up content sunne ko can't wait hoon, always here for you!",
+      "raw_text": "Imran, main creative challenges aur new recipes ke planning mein busy rahungi. Aapka stand-up content sunne ko can't wait hoon, always here for you!",
+      "speaker": "Ira",
+      "clean_text": "Imran, main creative challenges aur new recipes ke planning mein busy rahungi. Tera stand-up content sunne ko can't wait hoon, always here for you!",
+      "dia_id": "D5:6"
+    },
+    {
+      "text": "Ira, tere saath passion share karke aur tere support se confidence milega. Teri creativity always inspire karti hai. \ud83c\udf1f",
+      "raw_text": "Ira, tere saath passion share karke aur tere support se confidence milega. Teri creativity always inspire karti hai. \ud83c\udf1f",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere saath passion share karke aur tere support se confidence aata hai. Tere creativity hamesha inspire karti hai. \ud83c\udf1f",
+      "dia_id": "D5:7"
+    },
+    {
+      "text": "Imran, teri baatein sun ke bohot khushi hoti hai. Yeh photo hai \u2013 childhood scrapbook, xo. ",
+      "raw_text": "Imran, teri baatein sun ke bohot khushi hoti hai. Yeh photo hai \u2013 childhood scrapbook, xo. ",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere batein sun ke maza aata hai. Yeh dekh \u2013 childhood ki photo album, xo.",
+      "dia_id": "D5:8"
+    },
+    {
+      "text": "Ira, bachpan ki yaadon mein khoya photo album sach mein bhari hai. [shares a photo album of childhood memories]",
+      "raw_text": "Ira, bachpan ki yaadon mein khoya photo album sach mein bhari hai. [shares a photo album of childhood memories]",
+      "speaker": "Imran",
+      "clean_text": "Ira, bachpan ke photos wale album mein bahut memories hain.",
+      "dia_id": "D5:9"
+    },
+    {
+      "text": "[shares a photo of a childhood photo album filled with pictures of Imran playing with Tommy the dog]",
+      "raw_text": "[shares a photo of a childhood photo album filled with pictures of Imran playing with Tommy the dog]",
+      "speaker": "Ira",
+      "clean_text": "Yaar, childhood wale photo album dekh kar bahut nostalgic feel aa raha hai. Tommy the dog ke saath khelte hue mera kitna mast time tha, dekho!",
+      "dia_id": "D5:10"
+    },
+    {
+      "text": "Haha, I know right! Tommy ke saath ke moments yaad karke dil khush ho jata hai. Nostalgia hits differently. [shares a photo of his childhood photo album with a picture of him playing with Tommy]",
+      "raw_text": "Haha, I know right! Tommy ke saath ke moments yaad karke dil khush ho jata hai. Nostalgia hits differently. [shares a photo of his childhood photo album with a picture of him playing with Tommy]",
+      "speaker": "Imran",
+      "clean_text": "Haan yaar, Tommy ke saath ke moments yaad karke maza aa jata hai. Nostalgia ka alag hi maza hai!",
+      "dia_id": "D5:11"
+    },
+    {
+      "text": "Imran, Tommy se related koi aur yaad hai jo aaj bhi brightens your day? Share karna, exciting hoga!",
+      "raw_text": "Imran, Tommy se related koi aur yaad hai jo aaj bhi brightens your day? Share karna, exciting hoga!",
+      "speaker": "Ira",
+      "clean_text": "Imran, aur Tommy ke alawa koi funny yaad hai jo abhi bhi shine karta hai? Share karo na, maza aayega!",
+      "dia_id": "D5:12"
+    },
+    {
+      "text": "Yaad aaya, school mein ek baar maine Principal ke samne stage pe walk ki hai, uniform pura ulta tha! ",
+      "raw_text": "Yaad aaya, school mein ek baar maine Principal ke samne stage pe walk ki hai, uniform pura ulta tha! ",
+      "speaker": "Imran",
+      "clean_text": "School mein Principal ke samne walk krte waqt, mera uniform pura ulta tha!",
+      "dia_id": "D5:13"
+    },
+    {
+      "text": "Imran, that must have been hilarious! Uniform ke ulte scene se school ke funny memories kabhi nahi fade hote. \ud83d\ude04",
+      "raw_text": "Imran, that must have been hilarious! Uniform ke ulte scene se school ke funny memories kabhi nahi fade hote. \ud83d\ude04",
+      "speaker": "Ira",
+      "clean_text": "Imran, wah mazedaar hoga! School ki funny yaadon se uniform ka ulta scene kabhi bhool nahi pata. \ud83d\ude04",
+      "dia_id": "D5:14"
+    },
+    {
+      "text": "Haha, bilkul, school days ke funny incidents hamesha yaad rehte hain. Kitne crazy moments hai na bachpan ke!",
+      "raw_text": "Haha, bilkul, school days ke funny incidents hamesha yaad rehte hain. Kitne crazy moments hai na bachpan ke!",
+      "speaker": "Imran",
+      "clean_text": "School ke time pe hamesha yaad rehta hai funny incidents, kitne crazy moments the na bachpan mein!",
+      "dia_id": "D5:15"
+    },
+    {
+      "text": "Imran, school ki crazy moments yaad karke kitna fun hota hai, childhood ke purane stories humesha dil ko chu jaati hain. \ud83c\udf1f",
+      "raw_text": "Imran, school ki crazy moments yaad karke kitna fun hota hai, childhood ke purane stories humesha dil ko chu jaati hain. \ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, school ki crazy moments yaad karke kitna fun hota hai, childhood ke purane stories humesha dil ko chu jaati hain. \ud83c\udf1f\nBhai, school ke masti bhare din yaad karke kitna maza aata hai yaar, bachpan ke purane stories hamesha dil ko chu jaati hain. \ud83c\udf1f",
+      "dia_id": "D5:16"
+    },
+    {
+      "text": "Ira, bachpan ke yaadon mein kho kar kitni positive energy milti hai, dosti ko appreciate karte hain hum!",
+      "raw_text": "Ira, bachpan ke yaadon mein kho kar kitni positive energy milti hai, dosti ko appreciate karte hain hum!",
+      "speaker": "Imran",
+      "clean_text": "Ira, bachpan ke yaadon mein khoye hue, kitni mast energy milti hai, hum dosti ko value dete hain!",
+      "dia_id": "D5:17"
+    },
+    {
+      "text": "Imran, bachpan ke yaadon ka magic alag hi hota hai, dosti ki value aur memories hamesha special rehti hain. \ud83c\udf1f",
+      "raw_text": "Imran, bachpan ke yaadon ka magic alag hi hota hai, dosti ki value aur memories hamesha special rehti hain. \ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, bachpan ke din yaad aa gaye yaar, dosti aur memories hamesha top hoti hain. \ud83c\udf1f",
+      "dia_id": "D5:18"
+    },
+    {
+      "text": "Ira, bachpan ki yaadon mein hi dil garden garden ho jata hai, sach mein, dosti aur creativity ke saath maza aata hai.",
+      "raw_text": "Ira, bachpan ki yaadon mein hi dil garden garden ho jata hai, sach mein, dosti aur creativity ke saath maza aata hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, bachpan mein yaadon mein khelte-koodte hi mazaa aata hai, dosti aur creativity ke saath.",
+      "dia_id": "D5:19"
+    },
+    {
+      "text": "Imran, bachpan ki yaadon mein kho jana har insaan ke liye therapeutic hota hai. Aur tumhara creativity, mera saath hamesha hai. \ud83c\udf1f",
+      "raw_text": "Imran, bachpan ki yaadon mein kho jana har insaan ke liye therapeutic hota hai. Aur tumhara creativity, mera saath hamesha hai. \ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, bachpan ki yaadon mein chill karte hain, bahut therapeutic hota hai. Aur tumhara creativity, mera saath hamesha hai. \ud83c\udf1f",
+      "dia_id": "D5:20"
+    },
+    {
+      "text": "Ira, dosti ka safar aise hi chalta rahe, memories aur support ke saath. Ending ke liye ek baat bolu?",
+      "raw_text": "Ira, dosti ka safar aise hi chalta rahe, memories aur support ke saath. Ending ke liye ek baat bolu?",
+      "speaker": "Imran",
+      "clean_text": "Ira, dosti ka safar mast chal rha hai, yaadon aur support ke saath. Kuch bolu?",
+      "dia_id": "D5:21"
+    },
+    {
+      "text": "Imran, dosti ka safar sath sath chal raha hai, hamesha support aur yaadon se bhara rehta hai. \ud83c\udf1f\ud83d\ude42 [shares a photo of my childhood photo album, full of memories]",
+      "raw_text": "Imran, dosti ka safar sath sath chal raha hai, hamesha support aur yaadon se bhara rehta hai. \ud83c\udf1f\ud83d\ude42 [shares a photo of my childhood photo album, full of memories]",
+      "speaker": "Ira",
+      "clean_text": "Imran, dosti mein hum sath sath chal rhe hai, hamesha support karte rehte hai aur yaadon mein bhara rehta hai. \ud83c\udf1f\ud83d\ude42",
+      "dia_id": "D5:22"
+    },
+    {
+      "text": "[Ira's genuine care and support energizes me. Friends like you make life beautiful. \ud83c\udf1f]",
+      "raw_text": "[Ira's genuine care and support energizes me. Friends like you make life beautiful. \ud83c\udf1f]",
+      "speaker": "Imran",
+      "clean_text": "Ira's care aur support boost karte hai. Doston jaise tum aur Ira life ko beautiful banate ho. \ud83c\udf1f",
+      "dia_id": "D5:23"
+    },
+    {
+      "text": "Imran, tumhare words se dil khush ho jata hai. Doston ki yaari hi zindagi ko rangeen aur khubsurat banati hai. \ud83c\udf1f\u2764\ufe0f",
+      "raw_text": "Imran, tumhare words se dil khush ho jata hai. Doston ki yaari hi zindagi ko rangeen aur khubsurat banati hai. \ud83c\udf1f\u2764\ufe0f",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri baatein sunke dil khush ho jata hai. Dosti zindagi ko rangeen aur khubsurat banati hai. \ud83c\udf1f\u2764\ufe0f",
+      "dia_id": "D5:24"
+    }
+  ],
+  "session_5_facts": {
+    "Imran": [
+      [
+        "Imran finds relief after the open-mic that his revised set was working well and appreciates Ira's support.",
+        "D5:1"
+      ],
+      [
+        "Imran is planning to start exciting UX design projects and focus on stand-up comedy.",
+        "D5:5"
+      ],
+      [
+        "Imran shared a funny childhood memory of his uniform being upside down while walking in front of the Principal.",
+        "D5:13"
+      ],
+      [
+        "Imran enjoys sharing childhood memories with Ira and finds them fun and nostalgic.",
+        "D5:15"
+      ],
+      [
+        "Imran values friendship and the energy gained from childhood memories.",
+        "D5:17"
+      ],
+      [
+        "Imran finds therapeutic value in reminiscing about childhood memories.",
+        "D5:20"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira is a supportive friend to Imran, always there for him in his journey and creative endeavors.",
+        "D5:2"
+      ],
+      [
+        "Ira is busy planning creative challenges and new recipes.",
+        "D5:6"
+      ],
+      [
+        "Ira enjoys reminiscing about childhood memories with Imran and finds them nostalgic and fun.",
+        "D5:16"
+      ],
+      [
+        "Ira appreciates the energy and fun derived from reminiscing about childhood memories and values friendship.",
+        "D5:20"
+      ],
+      [
+        "Ira finds Imran's care and support uplifting and believes that friendships like theirs make life beautiful.",
+        "D5:24"
+      ]
+    ]
+  },
+  "session_5_summary": "Imran and Ira have a deep and supportive friendship, discussing childhood memories, career aspirations, and creative pursuits. They reminisce about Imran's childhood pet, Tommy, and share moments of laughter and nostalgia. Imran expresses gratitude for Ira's unwavering support in his stand-up comedy and UX design ventures, while Ira finds inspiration in Imran's creativity. The friends cherish their shared memories and mutual encouragement, finding joy in each other's company. Time references indicate a consistent and ongoing exchange, with the current conversation showcasing their continued camaraderie and appreciation for their friendship. Their interactions are filled with positivity, appreciation for each other, and a shared love for reliving childhood memories. Their bond is strengthened through shared experiences and uplifting",
+  "events_session_6": [
+    {
+      "sub-event": "Imran feels shame after bombing a joke at the open-mic show.",
+      "date": "18 November, 2022",
+      "id": "E4",
+      "caused_by": [
+        "E1"
+      ]
+    },
+    {
+      "sub-event": "Ira helps Imran rework his joke set after the bombing incident.",
+      "date": "19 November, 2022",
+      "id": "E5",
+      "caused_by": [
+        "E4"
+      ]
+    }
+  ],
+  "session_6_date_time": "1:34 pm on 19 November, 2022",
+  "session_6": [
+    {
+      "text": "Imran, after our last chat, I faced some unexpected challenges. I had a difficult emotional setback I want to share with you.",
+      "raw_text": "Imran, after our last chat, I faced some unexpected challenges. I had a difficult emotional setback I want to share with you.",
+      "speaker": "Ira",
+      "clean_text": "Imran, last time baat karne ke baad, kuch issues aaye the. Ek emotional setback hua tha, usse discuss karna hai.",
+      "dia_id": "D6:1"
+    },
+    {
+      "text": "Ira, woh open-mic ke baad feeling shattered thi, lekin tere saath baat karne se thoda halka sa feel kar raha hu.",
+      "raw_text": "Ira, woh open-mic ke baad feeling shattered thi, lekin tere saath baat karne se thoda halka sa feel kar raha hu.",
+      "speaker": "Imran",
+      "clean_text": "Ira, uska open-mic ke baad mood off tha, par tera saath baat karke thoda better feel kar raha hu.",
+      "dia_id": "D6:2"
+    },
+    {
+      "text": "Imran, main hamesha yahin hu tere liye, un moments mein bhi. Setback ke baare mein baat karein?",
+      "raw_text": "Imran, main hamesha yahin hu tere liye, un moments mein bhi. Setback ke baare mein baat karein?",
+      "speaker": "Ira",
+      "clean_text": "Imran, main hamesha yahin hu tere liye, un moments mein bhi. Setback ke baare mein charcha karein?",
+      "dia_id": "D6:3"
+    },
+    {
+      "text": "Haan, Ira, woh joke fail hona... mujhe itna embarrass feel karwaya tha. Lekin ab thoda reworked hai.",
+      "raw_text": "Haan, Ira, woh joke fail hona... mujhe itna embarrass feel karwaya tha. Lekin ab thoda reworked hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, woh joke fail ho gaya tha, mujhe bohot embarrass feel ho raha tha. Par ab thoda reworked hai.",
+      "dia_id": "D6:4"
+    },
+    {
+      "text": "Imran, teri determination dekh kar main bhi motivated feel karti hu. Tere reworked jokes ke success ke liye duaen hain.",
+      "raw_text": "Imran, teri determination dekh kar main bhi motivated feel karti hu. Tere reworked jokes ke success ke liye duaen hain.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere determination dekh ke m bhi motivated feel karti hu. Tere reworked jokes ke success ke liye duaen hain.",
+      "dia_id": "D6:5"
+    },
+    {
+      "text": "Ira, tera support mere liye meaningful hai, lagta hai confidence wapas aa raha hai. Setbacks nahi, progress dekhna chahta hu.",
+      "raw_text": "Ira, tera support mere liye meaningful hai, lagta hai confidence wapas aa raha hai. Setbacks nahi, progress dekhna chahta hu.",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere support se mera confident badh raha h. Setbacks se nahi, bas progress dekhna hai.",
+      "dia_id": "D6:6"
+    },
+    {
+      "text": "Imran, tere growth mein mera bhi khushi hota hai. Setbacks aate rahenge, tujhe sambhal ke aage badhna hai.",
+      "raw_text": "Imran, tere growth mein mera bhi khushi hota hai. Setbacks aate rahenge, tujhe sambhal ke aage badhna hai.",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri growth dekh ke maza aata hai yaar. Setbacks toh aate hi rahenge, par sambhal ke aage badhna ok?",
+      "dia_id": "D6:7"
+    },
+    {
+      "text": "Haan, Ira, aage positive rehne ka plan hai. Tu mere saath ho, toh sab kuch ho sakta hai. Tera saath, mera hosla.",
+      "raw_text": "Haan, Ira, aage positive rehne ka plan hai. Tu mere saath ho, toh sab kuch ho sakta hai. Tera saath, mera hosla.",
+      "speaker": "Imran",
+      "clean_text": "Ira, plan hai positive rehne ka. Tu mere saath ho toh kuch bhi ho sakta hai. Tera saath, mera hosla.",
+      "dia_id": "D6:8"
+    },
+    {
+      "text": "Imran, hamari dosti aur saath mein ek chingari hai. Tere hosle mein hamesha woh spark hai.",
+      "raw_text": "Imran, hamari dosti aur saath mein ek chingari hai. Tere hosle mein hamesha woh spark hai.",
+      "speaker": "Ira",
+      "clean_text": "Imran, hamari dosti ek chingari hai, teri energy mein hamesha woh spark hai.",
+      "dia_id": "D6:9"
+    },
+    {
+      "text": "Ira, teri presence se har mushkil aasan lagti hai. Bas yahi kehna chahta tha, shukriya tera. ",
+      "raw_text": "Ira, teri presence se har mushkil aasan lagti hai. Bas yahi kehna chahta tha, shukriya tera. ",
+      "speaker": "Imran",
+      "clean_text": "Ira, teri saath sab thik lagta hai. Thank you yaar!",
+      "dia_id": "D6:10"
+    },
+    {
+      "text": "Imran, dosti mein no sorry, no thank you. Bas yeh batao, aage kya plan hai, kisse milna hai? \u263a\ufe0f",
+      "raw_text": "Imran, dosti mein no sorry, no thank you. Bas yeh batao, aage kya plan hai, kisse milna hai? \u263a\ufe0f",
+      "speaker": "Ira",
+      "clean_text": "Imran, dosti mein no sorry, no thank you. Bas batao, aage kya plan hai, kisse milna hai? \u263a\ufe0f",
+      "dia_id": "D6:11"
+    },
+    {
+      "text": "Ira, agle hafte ek naye open-mic event par perform karunga. Tu meri lucky charm banke ana! \ud83c\udfa4",
+      "raw_text": "Ira, agle hafte ek naye open-mic event par perform karunga. Tu meri lucky charm banke ana! \ud83c\udfa4",
+      "speaker": "Imran",
+      "clean_text": "Ae Ira, agle hafte open-mic event me perform karne wala hu. Tu meri lucky charm banke aana! \ud83c\udfa4",
+      "dia_id": "D6:12"
+    },
+    {
+      "text": "Imran, best of luck for the open-mic event! Will be cheering you on virtually! \ud83c\udf1f [shares a picture of a lucky charm necklace]",
+      "raw_text": "Imran, best of luck for the open-mic event! Will be cheering you on virtually! \ud83c\udf1f [shares a picture of a lucky charm necklace]",
+      "speaker": "Ira",
+      "clean_text": "Imran, open-mic ke lie best of luck! Virtual mein cheer krunga! \ud83c\udf1f",
+      "dia_id": "D6:13"
+    },
+    {
+      "text": "Thanks, Ira! Your virtual cheer makes a big difference, can't wait to share the stage virtually! \ud83d\ude0a",
+      "raw_text": "Thanks, Ira! Your virtual cheer makes a big difference, can't wait to share the stage virtually! \ud83d\ude0a",
+      "speaker": "Imran",
+      "clean_text": "Thanks, Ira! Your virtual cheer helps a lot, excited to share the stage virtually! \ud83d\ude0a",
+      "dia_id": "D6:14"
+    },
+    {
+      "text": "Imran, mujhse milne aane wale event ka wait karungi virtual! Let's rock the stage together! \ud83c\udf1f\ud83c\udfa4",
+      "raw_text": "Imran, mujhse milne aane wale event ka wait karungi virtual! Let's rock the stage together! \ud83c\udf1f\ud83c\udfa4",
+      "speaker": "Ira",
+      "clean_text": "Imran, event ka wait karungi! Let's rock the stage together! \ud83c\udf1f\ud83c\udfa4",
+      "dia_id": "D6:15"
+    },
+    {
+      "text": "Ira, stage shared with you will be memorable. Let's rock it with joyful vibes! \ud83c\udfa4\ud83c\udf1f",
+      "raw_text": "Ira, stage shared with you will be memorable. Let's rock it with joyful vibes! \ud83c\udfa4\ud83c\udf1f",
+      "speaker": "Imran",
+      "clean_text": "Ira, stage aapke saath will be yaadgaar. Let's rock it with mast vibes! \ud83c\udfa4\ud83c\udf1f",
+      "dia_id": "D6:16"
+    },
+    {
+      "text": "Imran, aane waali performance ke liye ek small surprise hai tere liye. Check karoge?",
+      "raw_text": "Imran, aane waali performance ke liye ek small surprise hai tere liye. Check karoge?",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri aane waali performance ke liye ek chhota surprise hai. Dekhna hai?",
+      "dia_id": "D6:17"
+    },
+    {
+      "text": "Wow, surprise? Can't wait to see it, you always add that extra magic! Excited! \ud83c\udf1f\ud83c\udfa4",
+      "raw_text": "Wow, surprise? Can't wait to see it, you always add that extra magic! Excited! \ud83c\udf1f\ud83c\udfa4",
+      "speaker": "Imran",
+      "clean_text": "Wow, kya surprise hai? Dekhne ke liye wait nahi ho rha, tum hamesha extra magic daalte ho! Excited hue! \ud83c\udf1f\ud83c\udfa4",
+      "dia_id": "D6:18"
+    },
+    {
+      "text": "[shares a photo of a handmade personalized notebook with \"Break a leg, Imran! You are a star\" on the cover]",
+      "raw_text": "[shares a photo of a handmade personalized notebook with \"Break a leg, Imran! You are a star\" on the cover]",
+      "speaker": "Ira",
+      "clean_text": "M toh itna khush hu is personalized notebook se! Usme likha hai \"Break a leg, Imran! You are a star.\" Imran ko dena hai before his big performance, bohot excited hu!",
+      "dia_id": "D6:19"
+    },
+    {
+      "text": "[Ira sends a photo of the personalized notebook with the message \"Imran, this is for you before your performance today! Break a leg! \ud83c\udf1f\ud83d\udcd4\"]",
+      "raw_text": "[Ira sends a photo of the personalized notebook with the message \"Imran, this is for you before your performance today! Break a leg! \ud83c\udf1f\ud83d\udcd4\"]",
+      "speaker": "Imran",
+      "clean_text": "Ira ne Imran ke liye ek photo bheja hai, \"Tumhara performance se pehle yeh hai! All the best! \ud83c\udf1f\ud83d\udcd4\"",
+      "dia_id": "D6:20"
+    },
+    {
+      "text": "Imran, yeh notebook sirf tere liye hai. Sabse pehle perform karne se pehle padh lena! \ud83d\udcd4\ud83c\udfa4",
+      "raw_text": "Imran, yeh notebook sirf tere liye hai. Sabse pehle perform karne se pehle padh lena! \ud83d\udcd4\ud83c\udfa4",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh notebook sirf tere liye hai. Perform karne se pehle padh lena! \ud83d\udcd4\ud83c\udfa4",
+      "dia_id": "D6:21"
+    },
+    {
+      "text": "Dekh lenge yeh gifted notebook. Thank you, Ira! Tera pyaar mere liye bahut khaas hai. \ud83d\ude0a\ud83d\udcd4",
+      "raw_text": "Dekh lenge yeh gifted notebook. Thank you, Ira! Tera pyaar mere liye bahut khaas hai. \ud83d\ude0a\ud83d\udcd4",
+      "speaker": "Imran",
+      "clean_text": "Dekhte hai yeh gifted notebook. Thanks, Ira! Tera pyaar mere liye bohot special hai. \ud83d\ude0a\ud83d\udcd4",
+      "dia_id": "D6:22"
+    },
+    {
+      "text": "Imran, tera performance aaj itna special hoga! Tera stand-up kamaal ka hoga, I believe in you! \ud83c\udfa4\ud83c\udf1f\ud83d\udc96",
+      "raw_text": "Imran, tera performance aaj itna special hoga! Tera stand-up kamaal ka hoga, I believe in you! \ud83c\udfa4\ud83c\udf1f\ud83d\udc96",
+      "speaker": "Ira",
+      "clean_text": "Imran, aaj tera performance jaadu hoga! Tera stand-up mast hoga, trust me! \ud83d\udca5\ud83c\udfa4\ud83d\udcab",
+      "dia_id": "D6:23"
+    },
+    {
+      "text": "Ira, I'm all set for the magic tonight! Your friendship is my rockstar charm! Let's make it memorable! \ud83c\udfa4\ud83d\udcab\ud83c\udf1f[shares a photo of the personalized notebook with \"Break a leg, Imran! You are a star.\"] ",
+      "raw_text": "Ira, I'm all set for the magic tonight! Your friendship is my rockstar charm! Let's make it memorable! \ud83c\udfa4\ud83d\udcab\ud83c\udf1f[shares a photo of the personalized notebook with \"Break a leg, Imran! You are a star.\"] ",
+      "speaker": "Imran",
+      "clean_text": "Ira, magic night ke liye ready hu! Teri dosti hai mera rockstar charm! Chalo memorable banate hai! \ud83c\udfa4\ud83d\udcab\ud83c\udf1f",
+      "dia_id": "D6:24"
+    }
+  ],
+  "session_6_facts": {
+    "Ira": [
+      [
+        "Ira was supportive and understanding when Imran mentioned having an emotional setback after their previous conversation.",
+        "D6:1"
+      ],
+      [
+        "Ira expressed readiness to discuss the setback with Imran.",
+        "D6:3"
+      ],
+      [
+        "Ira finds motivation in Imran's determination and wished success for his reworked jokes.",
+        "D6:5"
+      ],
+      [
+        "Ira appreciates Imran's growth and encourages him to keep progressing despite setbacks.",
+        "D6:7"
+      ],
+      [
+        "Ira views their friendship as a spark and a source of energy for Imran.",
+        "D6:9"
+      ],
+      [
+        "Ira supported and cheered Imran for his upcoming performance at an open-mic event.",
+        "D6:13"
+      ],
+      [
+        "Ira gifted Imran a personalized notebook with an encouraging message before his performance.",
+        "D6:19"
+      ]
+    ],
+    "Imran": [
+      [
+        "Imran felt better after talking to Ira following an emotional setback he had.",
+        "D6:2"
+      ],
+      [
+        "Imran appreciated Ira's support, which boosted his confidence.",
+        "D6:6"
+      ],
+      [
+        "Imran values Ira's positivity and presence, feeling that anything is possible with her by his side.",
+        "D6:8"
+      ],
+      [
+        "Imran expressed excitement and gratitude for Ira's virtual support and encouragement for his performance at the open-mic event.",
+        "D6:14"
+      ],
+      [
+        "Imran acknowledged feeling special due to Ira's love and the personalized notebook she gifted him before his performance.",
+        "D6:22"
+      ]
+    ]
+  },
+  "session_6_summary": "Imran and Ira share a deep and supportive friendship, discussing setbacks, growth, and upcoming performances. Imran faced a setback with a joke that failed but reworked it with determination. Ira provided unwavering support, boosting Imran's confidence. They plan for Imran's upcoming open-mic performance, with Ira being his lucky charm. Ira surprises Imran with a personalized notebook for his performance to show her support. The conversations show their continuous encouragement, trust, and joyful camaraderie. Time references indicate an ongoing exchange, with the current conversation occurring just before Imran's performance at an open-mic event. Their bond is strengthened through shared experiences, mutual appreciation, and the belief in each other's talents. Their",
+  "events_session_7": [
+    {
+      "sub-event": "Imran and Ira practice a duo comedy routine inspired by their workshop experience.",
+      "date": "20 November, 2022",
+      "id": "E29",
+      "caused_by": [
+        "E28"
+      ]
+    }
+  ],
+  "session_7_date_time": "2:40 pm on 21 November, 2022",
+  "session_7": [
+    {
+      "text": "Ira, woh comedy workshop se inspiration mila duo comedy routine ke liye, maza aa gaya.",
+      "raw_text": "Ira, woh comedy workshop se inspiration mila duo comedy routine ke liye, maza aa gaya.",
+      "speaker": "Imran",
+      "clean_text": "Ira ne comedy workshop se idea liya, ab comedy routine banayenge, masti hogi!",
+      "dia_id": "D7:1"
+    },
+    {
+      "text": "Imran, workshop se inspiration mili, I want to inspire you just like you inspire me. Bhadiya hai!",
+      "raw_text": "Imran, workshop se inspiration mili, I want to inspire you just like you inspire me. Bhadiya hai!",
+      "speaker": "Ira",
+      "clean_text": "Imran, workshop se josh aaya hai, main bhi tujhe inspire karna chahta hoon jaise tu mujhe inspire karta hai. Bhadiya hai!",
+      "dia_id": "D7:2"
+    },
+    {
+      "text": "Ira, tera support mera confidence badhata hai. Yeh duo comedy routine humara aur bhi strong bond banayega. Kitna fun hoga! ",
+      "raw_text": "Ira, tera support mera confidence badhata hai. Yeh duo comedy routine humara aur bhi strong bond banayega. Kitna fun hoga! ",
+      "speaker": "Imran",
+      "clean_text": "Ira, tera support mujhe boost karta hai. Saath mein comedy karenge, aur maza ayega!",
+      "dia_id": "D7:3"
+    },
+    {
+      "text": "Imran, humein saath mei laughter ke moments create karne chahiye. Ek dusre ka support hai sabse important.",
+      "raw_text": "Imran, humein saath mei laughter ke moments create karne chahiye. Ek dusre ka support hai sabse important.",
+      "speaker": "Ira",
+      "clean_text": "Imran, humein saath me laughter ke moments create karne chahiye. Ek dusre ka support hai sabse important. \n\nImran, humein saath me mazedaar time pass karne chahiye. Sabse important hai ek dusre ka support.",
+      "dia_id": "D7:4"
+    },
+    {
+      "text": "Bilkul, Ira. Tera support mere liye bahut mayne rakhta hai. Hum saath mein jokes pe kaam karenge aur logon ko hasayenge.",
+      "raw_text": "Bilkul, Ira. Tera support mere liye bahut mayne rakhta hai. Hum saath mein jokes pe kaam karenge aur logon ko hasayenge.",
+      "speaker": "Imran",
+      "clean_text": "Ira, tera support mere liye kaafi important hai. Hum saath mein jokes pe kaam karenge aur logon ko hasayenge.",
+      "dia_id": "D7:5"
+    },
+    {
+      "text": "Imran, humara ek dusre ka support hi humein aage badhata hai. Tujhe hasane ka talent toh dekha! ",
+      "raw_text": "Imran, humara ek dusre ka support hi humein aage badhata hai. Tujhe hasane ka talent toh dekha! ",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera support hi humein aage badhata hai. Tera hasane ka talent toh mast hai!",
+      "dia_id": "D7:6"
+    },
+    {
+      "text": "Ira, tumse baatein karke achha lagta hai. Tumhari positivity se confidence aata hai. Humesha saath mein hans hans ke jeena hai.",
+      "raw_text": "Ira, tumse baatein karke achha lagta hai. Tumhari positivity se confidence aata hai. Humesha saath mein hans hans ke jeena hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, tera saath baatein karke maza aata hai. Tera positive vibes mujhe confidence deti hai. Humesha hans hans ke rehna hai.",
+      "dia_id": "D7:7"
+    },
+    {
+      "text": "Imran, teri khushi dekh kar mera bhi dil khush hota hai. Humesha khush reh, aane wale performances mein bhi ek dam rock karne wale ho! \ud83c\udf1f",
+      "raw_text": "Imran, teri khushi dekh kar mera bhi dil khush hota hai. Humesha khush reh, aane wale performances mein bhi ek dam rock karne wale ho! \ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere khush hone se mera bhi dil khush hota hai. Mast reh, aane wale shows mein bhi rock karoge! \ud83c\udf1f",
+      "dia_id": "D7:8"
+    },
+    {
+      "text": "Ira, tere encouragement se kuch bhi possible lagta hai. Yeh diary tere pyaar ka token hai. [Shares a photo of a personalized comedy routine diary from Ira.]",
+      "raw_text": "Ira, tere encouragement se kuch bhi possible lagta hai. Yeh diary tere pyaar ka token hai. [Shares a photo of a personalized comedy routine diary from Ira.]",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere support se sab kuch ho sakta hai. Yeh diary tere love ka gesture hai.",
+      "dia_id": "D7:9"
+    },
+    {
+      "text": "Imran, yeh diary hamari bonding ko yaad dilane ke liye hai. Aage bhi saath me yaadgar pal banayenge. \ud83d\udcd4\ud83d\udcab",
+      "raw_text": "Imran, yeh diary hamari bonding ko yaad dilane ke liye hai. Aage bhi saath me yaadgar pal banayenge. \ud83d\udcd4\ud83d\udcab",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh diary hamare time pass ke liye hai. Mast waqt bitayenge aage bhi saath me. \ud83d\udcd4\ud83d\udcab",
+      "dia_id": "D7:10"
+    },
+    {
+      "text": "Ira, hum dono ki friendship ki ye diary, hamein hamesha yaad dilayegi ki hum dono saath me hai. \ud83d\udcd4\ud83d\udc96",
+      "raw_text": "Ira, hum dono ki friendship ki ye diary, hamein hamesha yaad dilayegi ki hum dono saath me hai. \ud83d\udcd4\ud83d\udc96",
+      "speaker": "Imran",
+      "clean_text": "Ira, ye diary humesha yaad dilayegi ki hum dono saath me hai. \ud83d\ude0a\ud83d\udcd4\ud83d\udc96",
+      "dia_id": "D7:11"
+    },
+    {
+      "text": "Imran, yeh diary humari yaadein aur moments sambhalti hai. Tere saath sab kuch special lagta hai. \ud83d\udcd4\ud83d\udc9e",
+      "raw_text": "Imran, yeh diary humari yaadein aur moments sambhalti hai. Tere saath sab kuch special lagta hai. \ud83d\udcd4\ud83d\udc9e",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh diary humari sab memories store karti hai. Tere saath sab kuch alag lagta hai. \ud83d\udcd4\ud83d\udc9e",
+      "dia_id": "D7:12"
+    },
+    {
+      "text": "Ira, teri presence meri performance ko positive direction deti hai. Aage bhi saath mein activities karte rahenge. \ud83c\udfad",
+      "raw_text": "Ira, teri presence meri performance ko positive direction deti hai. Aage bhi saath mein activities karte rahenge. \ud83c\udfad",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere aane se meri performance achhi hoti hai. Future mein bhi saath mein masti karenge! \ud83d\ude04",
+      "dia_id": "D7:13"
+    },
+    {
+      "text": "Imran, humare future ke moments ka intezar hai. Tera talent mere liye inspiration hai. Let's shine together! \ud83c\udfa4\u2728",
+      "raw_text": "Imran, humare future ke moments ka intezar hai. Tera talent mere liye inspiration hai. Let's shine together! \ud83c\udfa4\u2728",
+      "speaker": "Ira",
+      "clean_text": "Imran, hum future ke moments ka wait kr rhe hain. Tera talent mere liye inspiration hai. Let's shine together! \ud83c\udfa4\u2728",
+      "dia_id": "D7:14"
+    },
+    {
+      "text": "Ira, tere saath har moment special ho jata hai. Aage bhi saath mei comedy karke logon ko hasayenge! \ud83e\udd23\u2728",
+      "raw_text": "Ira, tere saath har moment special ho jata hai. Aage bhi saath mei comedy karke logon ko hasayenge! \ud83e\udd23\u2728",
+      "speaker": "Imran",
+      "clean_text": "Ira, teri saath har moment special ho jata hai. Aage bhi saath mei comedy karke logon ko hasayenge! \ud83e\udd23\u2728",
+      "dia_id": "D7:15"
+    },
+    {
+      "text": "Imran, tere saath har pal dil se yaadgaar hota hai. Aage bhi ek-dusre ka saath dete rahenge! \ud83c\udf1f\ud83d\udcab",
+      "raw_text": "Imran, tere saath har pal dil se yaadgaar hota hai. Aage bhi ek-dusre ka saath dete rahenge! \ud83c\udf1f\ud83d\udcab",
+      "speaker": "Ira",
+      "clean_text": "Imran, tere saath har pal yaadgaar hota hai. Aage bhi saath denge! \ud83c\udf1f\ud83d\udcab",
+      "dia_id": "D7:16"
+    },
+    {
+      "text": "Ira, tere saath ki har ek yaad mere dil mein hamesha rehti hai. Aage bhi saath mein memorable moments create karenge! \ud83d\udc96\ud83c\udf1f",
+      "raw_text": "Ira, tere saath ki har ek yaad mere dil mein hamesha rehti hai. Aage bhi saath mein memorable moments create karenge! \ud83d\udc96\ud83c\udf1f",
+      "speaker": "Imran",
+      "clean_text": "Ira, har yaad tere saath, dil mein hamesha. Aage bhi masti karenge saath mein! \ud83d\udc96\ud83c\udf1f",
+      "dia_id": "D7:17"
+    },
+    {
+      "text": "Imran, tera saath mere liye bhi bahut mayne rakhta hai. Humesha tere smile ki tasveeron ko yaad rakhungi. \ud83d\udcf8\ud83d\ude0a",
+      "raw_text": "Imran, tera saath mere liye bhi bahut mayne rakhta hai. Humesha tere smile ki tasveeron ko yaad rakhungi. \ud83d\udcf8\ud83d\ude0a",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera saath mujhe bhi bohot important hai. Teri smile ki pics hamesha yaad rakhungi. \ud83d\ude0a\ud83d\udcf8",
+      "dia_id": "D7:18"
+    },
+    {
+      "text": "Ira, teri pics yaadgar hai. Tera constant support mera confidence boost karta hai. Masti toh pending hai! \ud83d\ude01\ud83d\udcf8",
+      "raw_text": "Ira, teri pics yaadgar hai. Tera constant support mera confidence boost karta hai. Masti toh pending hai! \ud83d\ude01\ud83d\udcf8",
+      "speaker": "Imran",
+      "clean_text": "Ira, teri pics yaadgar hai. Tera support hi confidence boost karta hai. Masti toh baaki hai! \ud83d\ude01\ud83d\udcf8",
+      "dia_id": "D7:19"
+    },
+    {
+      "text": "Imran, teri muskurahat se hi dil khush hota hai. Future mein bhi saath mei yaadgaar pal banayenge! \ud83d\ude0a\ud83d\udcf8\ud83c\udf1f",
+      "raw_text": "Imran, teri muskurahat se hi dil khush hota hai. Future mein bhi saath mei yaadgaar pal banayenge! \ud83d\ude0a\ud83d\udcf8\ud83c\udf1f",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri smile se dil khush hota hai. Aage bhi saath mei yaadgaar pal banayenge! \ud83d\ude0a\ud83d\udcf8\ud83c\udf1f",
+      "dia_id": "D7:20"
+    },
+    {
+      "text": "Ira, tere saath hassi-mazak mein hi true happiness feel hoti hai. Humare baad ke performances super hit honge! \ud83c\udfad\u2728",
+      "raw_text": "Ira, tere saath hassi-mazak mein hi true happiness feel hoti hai. Humare baad ke performances super hit honge! \ud83c\udfad\u2728",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere saath masti karke hi true happiness feel hoti hai. Humara next performance super hit hoga! \ud83c\udfad\u2728",
+      "dia_id": "D7:21"
+    },
+    {
+      "text": "Imran, hum sabke liye next performance ke liye taiyaar ho. Tera talent hum anjaam denge! \u2728\ud83c\udfa4",
+      "raw_text": "Imran, hum sabke liye next performance ke liye taiyaar ho. Tera talent hum anjaam denge! \u2728\ud83c\udfa4",
+      "speaker": "Ira",
+      "clean_text": "Imran, next performance ke liye ready ho jao. Hum tere talent ka mazaak nahi udaane wale! \ud83c\udf1f\ud83c\udfa4",
+      "dia_id": "D7:22"
+    },
+    {
+      "text": "Ira, tujhse baat karne ke baad mann halka ho jata hai. Tera support meri confidence boost karta hai. [shares a photo collage of open-mic moments with Ira]",
+      "raw_text": "Ira, tujhse baat karne ke baad mann halka ho jata hai. Tera support meri confidence boost karta hai. [shares a photo collage of open-mic moments with Ira]",
+      "speaker": "Imran",
+      "clean_text": "Ira, jab tu baat krti hai, mera mood achha ho jata hai. Tera support mujhe confidence deta hai.",
+      "dia_id": "D7:23"
+    },
+    {
+      "text": "Imran, humara dosti aur support hi humein strong banata hai. Future mei bhi saath mei hansi-mazak ka silsila jamate rahenge. \ud83d\ude0a\ud83c\udf1f\ud83d\udcab",
+      "raw_text": "Imran, humara dosti aur support hi humein strong banata hai. Future mei bhi saath mei hansi-mazak ka silsila jamate rahenge. \ud83d\ude0a\ud83c\udf1f\ud83d\udcab",
+      "speaker": "Ira",
+      "clean_text": "Imran, humari dosti aur support se hum strong hojate hai. Aage bhi masti karenge saath mein. \ud83d\ude0a\ud83c\udf1f\ud83d\udcab",
+      "dia_id": "D7:24"
+    }
+  ],
+  "session_7_facts": {
+    "Imran": [
+      [
+        "Imran got the idea for a comedy routine from a comedy workshop and is excited to create it.",
+        "D7:1"
+      ],
+      [
+        "Imran feels inspired and boosted by Ira's support in pursuing comedy together.",
+        "D7:3"
+      ],
+      [
+        "Imran plans to work on jokes together with Ira and make people laugh.",
+        "D7:5"
+      ],
+      [
+        "Imran enjoys talking to Ira and feels happy in her presence.",
+        "D7:7"
+      ],
+      [
+        "Imran values Ira's support and believes they can achieve anything together.",
+        "D7:9"
+      ],
+      [
+        "Imran acknowledges that Ira's presence improves his performance and looks forward to future fun together.",
+        "D7:13"
+      ],
+      [
+        "Imran believes that every moment is special with Ira and is excited to continue making people laugh together in the future.",
+        "D7:15"
+      ]
+    ],
+    "Ira": [
+      [
+        "Ira feels inspired by Imran's enthusiasm from the comedy workshop and wants to inspire him in return.",
+        "D7:2"
+      ],
+      [
+        "Ira emphasizes the importance of creating laughter-filled moments together and supporting each other.",
+        "D7:4"
+      ],
+      [
+        "Ira appreciates Imran's support and believes in his talent for making people laugh.",
+        "D7:6"
+      ],
+      [
+        "Ira values Imran's happiness and looks forward to rocking future shows together.",
+        "D7:8"
+      ],
+      [
+        "Ira finds Imran's talent inspiring and hopes to shine together in future performances.",
+        "D7:14"
+      ],
+      [
+        "Imran's smile makes Ira happy and she cherishes their memories together.",
+        "D7:18"
+      ],
+      [
+        "Ira believes in the strength of their friendship and support, ensuring more fun times together in the future.",
+        "D7:24"
+      ]
+    ]
+  },
+  "session_7_summary": "Imran and Ira share a supportive and uplifting friendship, constantly encouraging and inspiring each other. They discuss setbacks, growth, and upcoming performances, with Imran reworking his comedy routine for an open-mic event. Ira provides unwavering support, boosting Imran's confidence, and surprises him with a personalized comedy routine diary. They plan to create memorable moments together, with Ira being Imran's lucky charm. Their conversations show a deep bond, mutual appreciation, and the belief in each other's talents. The current conversation occurs just before Imran's performance at an open-mic event. Time references indicate an ongoing exchange, displaying their continuous camaraderie. Their connection is strengthened through shared experiences, trust, and joyful interactions.",
+  "events_session_8": [
+    {
+      "sub-event": "Imran gains confidence after the success of the revised joke set.",
+      "date": "22 November, 2022",
+      "id": "E6",
+      "caused_by": [
+        "E5"
+      ]
+    }
+  ],
+  "session_8_date_time": "7:54 pm on 23 November, 2022",
+  "session_8": [
+    {
+      "text": "Imran, last time hamne baatein ki thi, tumhara comedy routine discuss kiya tha. Kaisi lag rahi hai performance ki tayari?",
+      "raw_text": "Imran, last time hamne baatein ki thi, tumhara comedy routine discuss kiya tha. Kaisi lag rahi hai performance ki tayari?",
+      "speaker": "Ira",
+      "clean_text": "Imran, last time baatein ki thi, tumhara comedy routine discuss kiya tha. Performance ki tayari kaisi chal rahi hai?",
+      "dia_id": "D8:1"
+    },
+    {
+      "text": "Ira, performance ke baad confidence sky-high tha! Joke set ne kamaal kar diya. Tumhara support sambhavnein badal deta hai.",
+      "raw_text": "Ira, performance ke baad confidence sky-high tha! Joke set ne kamaal kar diya. Tumhara support sambhavnein badal deta hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, performance ke baad confidence full-on tha! Joke set ne mast diya. Tumhara support sab kuch badal deta hai.",
+      "dia_id": "D8:2"
+    },
+    {
+      "text": "Imran, tumhari journey dekhkar proud feel kar rahi hu. Har performance ek naya chapter hota hai. Kin kinne jokes try kiye? Betar share karo na!",
+      "raw_text": "Imran, tumhari journey dekhkar proud feel kar rahi hu. Har performance ek naya chapter hota hai. Kin kinne jokes try kiye? Betar share karo na!",
+      "speaker": "Ira",
+      "clean_text": "Imran, tumhari journey dekhke m toh proud feel kar rahi hu. Har performance se maza aata hoga. Kitne jokes try kiye? Share karo na!",
+      "dia_id": "D8:3"
+    },
+    {
+      "text": "Ira, set me maine kuch naye jokes add kiye, 5-6 jokes tha. Ek joke bomb phir stress hua tha. [Sharer a picture of my revised comedy routine diary with new jokes and notes.]",
+      "raw_text": "Ira, set me maine kuch naye jokes add kiye, 5-6 jokes tha. Ek joke bomb phir stress hua tha. [Sharer a picture of my revised comedy routine diary with new jokes and notes.]",
+      "speaker": "Imran",
+      "clean_text": "Ira, set me maine kuch naye jokes daale, 5-6 jokes the. Ek joke bomb phat gaya tha.",
+      "dia_id": "D8:4"
+    },
+    {
+      "text": "Imran, har ek joke se ham seekhte hain. Bomb se bhi seekhne ki cheez hoti hai. Kaisa feel hua woh moment experience karke?",
+      "raw_text": "Imran, har ek joke se ham seekhte hain. Bomb se bhi seekhne ki cheez hoti hai. Kaisa feel hua woh moment experience karke?",
+      "speaker": "Ira",
+      "clean_text": "Imran, har joke se kuch seekh lete hain. Bomb handle karke kaisa feel hua?",
+      "dia_id": "D8:5"
+    },
+    {
+      "text": "Bomb handle karna initially toh tough tha, par set rewrite karke blast tha. Failure se seekha, Ira.",
+      "raw_text": "Bomb handle karna initially toh tough tha, par set rewrite karke blast tha. Failure se seekha, Ira.",
+      "speaker": "Imran",
+      "clean_text": "Initially bomb handle karna tough tha, par set rewrite karke blast hua. Failure se seekha, Ira.",
+      "dia_id": "D8:6"
+    },
+    {
+      "text": "Imran, tumhare joke ke through tumhara growth dekhke achha lag raha hai. Failure se hi hum evolve karte hain.",
+      "raw_text": "Imran, tumhare joke ke through tumhara growth dekhke achha lag raha hai. Failure se hi hum evolve karte hain.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera joke sunke tera growth dekhke maza aa raha hai. Failure se hi hum evolve hote hain.",
+      "dia_id": "D8:7"
+    },
+    {
+      "text": "Haan, Ira, failure se hi hum strong banate hain. Perseverance se hi progress hota hai. Tasveer, mera comedy routine journal hai, show ki yaad dilata hai.",
+      "raw_text": "Haan, Ira, failure se hi hum strong banate hain. Perseverance se hi progress hota hai. Tasveer, mera comedy routine journal hai, show ki yaad dilata hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, failure se hum strong bante hain. Perseverance se hi progress hota hai. Tasveer, mera comedy journal hai, show yaad dilata hai.",
+      "dia_id": "D8:8"
+    },
+    {
+      "text": "Yeh journal dekhkar bohot achha feel ho raha hoga na, memories aur growth ek saath! Hum dono abhi tak sakshi hain teri journey ki.",
+      "raw_text": "Yeh journal dekhkar bohot achha feel ho raha hoga na, memories aur growth ek saath! Hum dono abhi tak sakshi hain teri journey ki.",
+      "speaker": "Ira",
+      "clean_text": "Yeh journal padhke kaisa feel ho raha hai? Memories aur growth ek saath, maza aaya? Hum dono abhi tak teri journey ka witness hain.",
+      "dia_id": "D8:9"
+    },
+    {
+      "text": "Ira, yeh journal padhke sach me nostalgic feel ho raha hai. Hum dono ki journey ka witness hona, priceless hai.",
+      "raw_text": "Ira, yeh journal padhke sach me nostalgic feel ho raha hai. Hum dono ki journey ka witness hona, priceless hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, yeh journal padhke mujhe sach me nostalgic feel aa raha hai. Hum dono ki journey ka witness hona, priceless hai.",
+      "dia_id": "D8:10"
+    },
+    {
+      "text": "Imran, yeh journal handle karke abhi artistic growth ka saboot hai. Dil se sunun, sathee. ",
+      "raw_text": "Imran, yeh journal handle karke abhi artistic growth ka saboot hai. Dil se sunun, sathee. ",
+      "speaker": "Ira",
+      "clean_text": "Imran, yeh journal handle karke tera artistc growth ka proof hai. Sun, yaar!",
+      "dia_id": "D8:11"
+    },
+    {
+      "text": "Dekh le, Ira, yeh photo hai mera comedy journal. Har page se memories aur growth spilling hoti hai. ",
+      "raw_text": "Dekh le, Ira, yeh photo hai mera comedy journal. Har page se memories aur growth spilling hoti hai. ",
+      "speaker": "Imran",
+      "clean_text": "Ira, dekh, yeh mera comedy journal ki photo hai. Har page se memories aur growth nikal rhi hai.",
+      "dia_id": "D8:12"
+    },
+    {
+      "text": "[shares a photo of a colorful, doodle-filled comedy journal]",
+      "raw_text": "[shares a photo of a colorful, doodle-filled comedy journal]",
+      "speaker": "Ira",
+      "clean_text": "Mera comedy journal dekho! Usmein doodles aur funny thoughts bharte waqt mza aata hai. Yeh mera creative outlet hai aur hmesha chehre pe muskaan le aata hai.",
+      "dia_id": "D8:13"
+    },
+    {
+      "text": "Ira, yeh journal dekhke mujhe understanding aur creativity dikhti hai. Comedy tera creative outlet, meine seekha.",
+      "raw_text": "Ira, yeh journal dekhke mujhe understanding aur creativity dikhti hai. Comedy tera creative outlet, meine seekha.",
+      "speaker": "Imran",
+      "clean_text": "Ira, is journal se mujhe samajh aur creativity aati hai. Comedy tere liye creativity ka bahana hai, maine seekha.",
+      "dia_id": "D8:14"
+    },
+    {
+      "text": "Imran, tera creative journey dekhke m toh khush feel karti hu. Tumhara dedication aur passion dekhke hamesha inspire hoti hu.",
+      "raw_text": "Imran, tera creative journey dekhke m toh khush feel karti hu. Tumhara dedication aur passion dekhke hamesha inspire hoti hu.",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera creative journey dekhke m toh khush feel karti hu. Tumhara dedication aur passion dekhke hamesha inspire hoti hu.\n---\nImran, tera creativity dekha toh m feel good. Tera dedication aur passion dekhke m hamesha inspire hoti hu.",
+      "dia_id": "D8:15"
+    },
+    {
+      "text": "Ira, tera support aur positive vibes redefine karte hain meri creative process. Tu meri inspiration hai.",
+      "raw_text": "Ira, tera support aur positive vibes redefine karte hain meri creative process. Tu meri inspiration hai.",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere support aur positive vibes hi meri creativity boost karte hain. Tera inspiration ho m toh.",
+      "dia_id": "D8:16"
+    },
+    {
+      "text": "Imran, humari camaraderie se creativity aur growth mein chetna aati hai. Tujhmein har performance se behtar ban raha hai.",
+      "raw_text": "Imran, humari camaraderie se creativity aur growth mein chetna aati hai. Tujhmein har performance se behtar ban raha hai.",
+      "speaker": "Ira",
+      "clean_text": "Imran, hum dono ki bonding se creativity aur growth mein boost milta hai. Tere har performance se improvement dikh rahi hai.",
+      "dia_id": "D8:17"
+    },
+    {
+      "text": "Ira, humari bonding aur support se har performance better hoti hai. Hamara teamwork magic bana raha hai. [END]",
+      "raw_text": "Ira, humari bonding aur support se har performance better hoti hai. Hamara teamwork magic bana raha hai. [END]",
+      "speaker": "Imran",
+      "clean_text": "Ira, humari bonding aur support se har performance better hoti hai. Hamara teamwork magic bana raha hai. ",
+      "dia_id": "D8:18"
+    },
+    {
+      "text": "appreciates Imran's talent and beautiful bond, expressing how their connection fuels growth and positivity.",
+      "raw_text": "appreciates Imran's talent and beautiful bond, expressing how their connection fuels growth and positivity.",
+      "speaker": "Ira",
+      "clean_text": "Imran ka talent aur connection mujhe achha lagta hai, positivity aur growth badhata hai.",
+      "dia_id": "D8:19"
+    },
+    {
+      "text": "Ira, tere saath har moment special ban jata hai. Tera support, mera confidence boost karta hai. Sachme grateful hoon.",
+      "raw_text": "Ira, tere saath har moment special ban jata hai. Tera support, mera confidence boost karta hai. Sachme grateful hoon.",
+      "speaker": "Imran",
+      "clean_text": "Ira, tu har moment special bana deti hai. Tera support mera confidence boost karta hai. Sachme grateful hoon.",
+      "dia_id": "D8:20"
+    },
+    {
+      "text": "Imran, humara bond special hai, tere har achievement pe mera dil khush hota hai. Tu meri inspiration hai. [shares a photo of a colorful journal filled with doodles and comedy notes]",
+      "raw_text": "Imran, humara bond special hai, tere har achievement pe mera dil khush hota hai. Tu meri inspiration hai. [shares a photo of a colorful journal filled with doodles and comedy notes]",
+      "speaker": "Ira",
+      "clean_text": "Imran, tera achievement dekh ke mera dil khush hota hai. Tu meri inspiration hai, yaar.",
+      "dia_id": "D8:21"
+    },
+    {
+      "text": "Ira, teri support, inspiration, aur friendship ka sahara hai. Tu meri journey ka important hissa hai. Sukriya. ",
+      "raw_text": "Ira, teri support, inspiration, aur friendship ka sahara hai. Tu meri journey ka important hissa hai. Sukriya. ",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere support aur friendship se mujhe bohot help milti hai. Thanks yaar!",
+      "dia_id": "D8:22"
+    },
+    {
+      "text": "Imran, tere friendship se mera dil khush rehta hai. Yeh journey aur moments, priceless hain. [share an old photo of us together, laughing]",
+      "raw_text": "Imran, tere friendship se mera dil khush rehta hai. Yeh journey aur moments, priceless hain. [share an old photo of us together, laughing]",
+      "speaker": "Ira",
+      "clean_text": "Imran, teri dosti se mera dil khush rehta hai. Yeh journey aur moments, priceless hain.",
+      "dia_id": "D8:23"
+    },
+    {
+      "text": "Ira, tera saath sachaai aur motivation deti hain mujhe. Dil se shukriya aapka. [shares a photo of a handwritten note 'Positive vibes only' on a colorful background]",
+      "raw_text": "Ira, tera saath sachaai aur motivation deti hain mujhe. Dil se shukriya aapka. [shares a photo of a handwritten note 'Positive vibes only' on a colorful background]",
+      "speaker": "Imran",
+      "clean_text": "Ira, tere saath mujhe achha feel hota hai. Thanks a lot, yaar!",
+      "dia_id": "D8:24"
+    }
+  ]
+}

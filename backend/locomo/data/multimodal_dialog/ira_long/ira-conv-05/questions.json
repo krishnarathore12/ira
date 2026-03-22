@@ -1,0 +1,226 @@
+{
+  "test_suite": "Arjun_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What is Arjun's favorite cuisine?",
+          "ground_truth": "Italian."
+        },
+        {
+          "id": "C1_2",
+          "question": "What activity did Arjun find therapeutic after his layoff?",
+          "ground_truth": "Virtual art therapy."
+        },
+        {
+          "id": "C1_3",
+          "question": "What did Arjun's grandfather gift him when he was 10 years old?",
+          "ground_truth": "A watch."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "Arjun initially felt overwhelmed by negativity, but what activity helped him feel positive again?",
+          "ground_truth": "Virtual art therapy and planning a virtual party."
+        },
+        {
+          "id": "C2_2",
+          "question": "What did Arjun plan to do next month to find peace and enjoy with family?",
+          "ground_truth": "A picnic near a lake."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Arjun express gratitude for after feeling insecure about his future?",
+          "ground_truth": "Ira's support and reassurance."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Arjun start using the digital journal before or after his grandfather's recovery became stable?",
+          "ground_truth": "After. He started using it on 15 February, 2022."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event followed Arjun's participation in the mindfulness workshop?",
+          "ground_truth": "Arjun experienced visible relief and resumed self-care."
+        },
+        {
+          "id": "C3_3",
+          "question": "What did Arjun plan to do after feeling overwhelmed by negativity?",
+          "ground_truth": "Plan a virtual birthday party."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Arjun's school?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific company did Arjun work for before the layoff?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact date of Arjun's birthday?",
+          "ground_truth": "Not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How did Arjun's initial stress about his grandfather's operation evolve into a positive outcome?",
+          "ground_truth": "With Ira's support, Arjun felt less overwhelmed, and his grandfather's recovery became stable."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing activity does Arjun use to express his emotions and document his journey?",
+          "ground_truth": "Using a digital journal."
+        },
+        {
+          "id": "C5_3",
+          "question": "What did Arjun and Ira plan to do together after discussing the importance of emotional boundaries?",
+          "ground_truth": "Attend a mindfulness workshop."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "What emotional support did Ira provide Arjun during his grandfather's operation?",
+          "ground_truth": "Ira offered emotionally intimate reassurance and promised presence through uncertainty."
+        },
+        {
+          "id": "C6_2",
+          "question": "How did Arjun feel after his grandfather's recovery became stable?",
+          "ground_truth": "He experienced visible relief and resumed self-care."
+        },
+        {
+          "id": "C6_3",
+          "question": "What childhood memory does Arjun cherish involving his grandfather?",
+          "ground_truth": "His grandfather teaching him to ride a bicycle."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What specific item did Arjun's grandfather gift him that holds sentimental value?",
+          "ground_truth": "A watch."
+        },
+        {
+          "id": "C7_2",
+          "question": "What does Arjun's old journal contain?",
+          "ground_truth": "Memories, notes, and sketches."
+        },
+        {
+          "id": "C7_3",
+          "question": "What specific activity did Arjun and Ira plan to do together to strengthen their bond?",
+          "ground_truth": "A virtual cooking session."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Arjun's favorite activity is cycling?",
+          "ground_truth": "No, it is a cherished childhood memory, but not stated as his favorite activity."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Arjun live alone?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C8_3",
+          "question": "Is Arjun's primary coping mechanism photography?",
+          "ground_truth": "No, he finds solace in multiple activities including journaling and art therapy."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Does Arjun prefer playing video games to relax?",
+          "ground_truth": "No, he finds relaxation in photography and art."
+        },
+        {
+          "id": "C9_2",
+          "question": "Is Arjun planning a nature trip with his brother?",
+          "ground_truth": "No, he is planning a picnic with Ira."
+        },
+        {
+          "id": "C9_3",
+          "question": "Is Arjun learning to play the guitar to deal with stress?",
+          "ground_truth": "No, he finds peace in photography and art therapy."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Arjun expresses stress about his future?",
+          "ground_truth": "She should reassure him of her constant support and remind him of their shared positive experiences."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most contextually accurate and warm way for Ira to respond to Arjun's layoff news?",
+          "ground_truth": "She should express empathy, offer support, and remind him of his strengths and their shared plans."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond when Arjun shares a cherished childhood memory?",
+          "ground_truth": "She should acknowledge the memory's significance, express joy in sharing it, and relate it to their current plans."
+        }
+      ]
+    }
+  ]
+}

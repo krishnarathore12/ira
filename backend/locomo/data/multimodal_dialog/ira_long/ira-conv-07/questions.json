@@ -1,0 +1,226 @@
+{
+  "test_suite": "Dev_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What is Dev's favorite Indian dish?",
+          "ground_truth": "Rajma Chawal."
+        },
+        {
+          "id": "C1_2",
+          "question": "What activity does Dev find peace in?",
+          "ground_truth": "Painting."
+        },
+        {
+          "id": "C1_3",
+          "question": "What does Dev use as a base for his art therapy sessions?",
+          "ground_truth": "His painting 'Rangon ka Safar.'"
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "Dev initially felt haunted by a regret from his past patient care decision. How did Ira help him cope with it?",
+          "ground_truth": "Ira reassured Dev that his kindness matters and encouraged him to share his thoughts."
+        },
+        {
+          "id": "C2_2",
+          "question": "Dev used to feel overwhelmed by guilt about a patient. How did his perspective change after talking to Ira?",
+          "ground_truth": "Ira's support made Dev feel like everything would be okay, providing him comfort."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Dev decide to do after Ira suggested exploring art therapy?",
+          "ground_truth": "Dev planned to start art therapy with excitement and looked forward to Ira's support."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Dev start journaling before or after Ira suggested art therapy?",
+          "ground_truth": "Before. Dev started journaling after Ira suggested it on 5 February, 2022, and art therapy was suggested on 1 March, 2022."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event followed Dev's first art therapy session?",
+          "ground_truth": "Dev created his first art piece and shared it with Ira."
+        },
+        {
+          "id": "C3_3",
+          "question": "Did Dev express gratitude towards Ira before or after starting art therapy?",
+          "ground_truth": "Before. Dev expressed gratitude on 5 March, 2022, and started art therapy on 10 March, 2022."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Dev's favorite book?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific art piece did Dev create during his first art therapy session?",
+          "ground_truth": "Not mentioned in the text (only described as a canvas with swirling blues and greens)."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact location of the peaceful park Dev visited?",
+          "ground_truth": "Not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How did Dev's feelings about his patient care decision evolve over time?",
+          "ground_truth": "Initially, Dev felt haunted by regret and guilt, but Ira's support helped him find comfort and reassurance."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing activity does Dev find therapeutic and continues to engage in?",
+          "ground_truth": "Art therapy and painting."
+        },
+        {
+          "id": "C5_3",
+          "question": "How does Dev's connection with nature influence his emotional state?",
+          "ground_truth": "Dev finds peace and healing in nature, which helps him process emotions and feel rejuvenated."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "What regret does Dev feel about his past patient care decision?",
+          "ground_truth": "Dev feels heavy guilt and like he failed to help a patient."
+        },
+        {
+          "id": "C6_2",
+          "question": "Who was Ira's emotional anchor?",
+          "ground_truth": "Her nanaji (grandfather)."
+        },
+        {
+          "id": "C6_3",
+          "question": "What emotional impact does Dev's painting 'Rangon ka Safar' have on him?",
+          "ground_truth": "It connects him to his inner turmoil and also provides healing."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What is the name of Dev's painting that he plans to use in art therapy?",
+          "ground_truth": "'Rangon ka Safar.'"
+        },
+        {
+          "id": "C7_2",
+          "question": "What specific location does Dev find peace in, as mentioned in his conversations?",
+          "ground_truth": "A peaceful park with a waterfall."
+        },
+        {
+          "id": "C7_3",
+          "question": "What is the name of the book discussed in Dev's book club that had a significant impact?",
+          "ground_truth": "'The Book Thief.'"
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Dev paints every day?",
+          "ground_truth": "No, it is only stated that Dev finds peace in painting, not the frequency."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Dev live near the waterfall park he visits?",
+          "ground_truth": "Not explicitly stated, only that he visited a peaceful park with a waterfall."
+        },
+        {
+          "id": "C8_3",
+          "question": "Is Ira's favorite activity painting?",
+          "ground_truth": "Not explicitly stated, only that she finds peace in painting."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Does Dev find peace in playing a musical instrument?",
+          "ground_truth": "No, Dev finds peace in painting and nature."
+        },
+        {
+          "id": "C9_2",
+          "question": "Is Dev's favorite book 'The Alchemist'?",
+          "ground_truth": "No, 'The Alchemist' is mentioned as Ira's current read, not Dev's favorite."
+        },
+        {
+          "id": "C9_3",
+          "question": "Does Ira have a special connection with a place in Uttarakhand?",
+          "ground_truth": "No, Ira's special connection is with her grandmother's garden."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Dev shares his regret about a past patient care decision?",
+          "ground_truth": "Ira should reassure Dev that his kindness matters and encourage him to share his thoughts."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most contextually accurate and warm way for Ira to support Dev's art therapy journey?",
+          "ground_truth": "Ira should express excitement for Dev's growth and offer her unwavering support."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond when Dev shares his painting 'Rangon ka Safar'?",
+          "ground_truth": "Ira should appreciate the emotions and healing reflected in the painting and encourage Dev to explore further."
+        }
+      ]
+    }
+  ]
+}

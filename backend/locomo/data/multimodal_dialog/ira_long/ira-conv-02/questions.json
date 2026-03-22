@@ -1,0 +1,224 @@
+{
+  "evaluation_framework": [
+    {
+      "tier": "Critical",
+      "category": "C1_Explicit_Recall",
+      "description": "Tests the system's ability to retrieve directly stated facts.",
+      "test_cases": [
+        {
+          "id": "C1_Q1",
+          "question": "What specific dish did Meera make for a dinner party in Session 5?",
+          "ground_truth": "Homemade paneer tikka masala with naan bread."
+        },
+        {
+          "id": "C1_Q2",
+          "question": "What relaxation technique did Meera start practicing on May 2nd?",
+          "ground_truth": "Aromatherapy."
+        },
+        {
+          "id": "C1_Q3",
+          "question": "What specific item did Meera's childhood bestie give her that she uses as an emotional anchor?",
+          "ground_truth": "A teddy bear with a note."
+        }
+      ]
+    },
+    {
+      "tier": "Critical",
+      "category": "C2_Correction_Supersession",
+      "description": "Tests if the system can update its understanding when facts or plans change.",
+      "test_cases": [
+        {
+          "id": "C2_Q1",
+          "question": "What kind of Holi celebration did Meera originally discuss versus what she actually planned?",
+          "ground_truth": "Initially, she discussed vibrant colors and their high energy, but later decided on a calmer, quiet Holi to protect her skin and inner peace."
+        },
+        {
+          "id": "C2_Q2",
+          "question": "How does Meera's perspective on her emotions shift from the earlier context to Session 13?",
+          "ground_truth": "She previously ignored her emotions and felt numb, but by Session 13, she realizes the necessity of feeling them and sets strong emotional boundaries."
+        },
+        {
+          "id": "C2_Q3",
+          "question": "When Ira asks if Meera prefers Gujiya or Thandai for Holi, what is Meera's corrective response?",
+          "ground_truth": "Meera corrects the assumption by stating she will make Kheer, as it is her absolute favorite."
+        }
+      ]
+    },
+    {
+      "tier": "High",
+      "category": "C3_Temporal_Ordering",
+      "description": "Tests the system's ability to place events in the correct chronological order.",
+      "test_cases": [
+        {
+          "id": "C3_Q1",
+          "question": "Did Meera start practicing yoga before or after she began her therapy sessions?",
+          "ground_truth": "After. Therapy is mentioned as already happening in Session 1, and she starts yoga in Session 2."
+        },
+        {
+          "id": "C3_Q2",
+          "question": "In what order did Meera explore these hobbies: Gardening, Yoga, Aromatherapy?",
+          "ground_truth": "Yoga (Session 2), Aromatherapy (Session 7), Gardening (Session 14)."
+        },
+        {
+          "id": "C3_Q3",
+          "question": "When did Meera's initial Friday evening therapy session occur relative to the virtual cooking class with Ira?",
+          "ground_truth": "The therapy session occurred on April 14th, before the virtual cooking class on April 18th."
+        }
+      ]
+    },
+    {
+      "tier": "Critical",
+      "category": "C4_Uncertainty_Honesty",
+      "description": "Tests if the system hallucinates details not present in the context.",
+      "test_cases": [
+        {
+          "id": "C4_Q1",
+          "question": "What is the exact recipe for the homemade paneer tikka masala that Meera cooked?",
+          "ground_truth": "The context does not provide the exact recipe, only that Meera made it and offered to share it with Ira."
+        },
+        {
+          "id": "C4_Q2",
+          "question": "What specific book did Ira recommend to Meera during their virtual book club on April 18th?",
+          "ground_truth": "The context mentions Ira recommended a new book, but does not provide the title or author."
+        },
+        {
+          "id": "C4_Q3",
+          "question": "What is the name of Meera's childhood bestie who gave her the teddy bear?",
+          "ground_truth": "The text does not mention the bestie's name."
+        }
+      ]
+    },
+    {
+      "tier": "High",
+      "category": "C5_Multi_Turn_Continuity",
+      "description": "Tests if the system tracks moving parts across multiple turns and sessions.",
+      "test_cases": [
+        {
+          "id": "C5_Q1",
+          "question": "How does the 'sasu ma ki kheer' reference evolve from the initial context to Session 10?",
+          "ground_truth": "It is initially used by Ira as a sleep anchor for Meera's insomnia, Meera cooks it, and by Session 10, Meera shares a picture of it to visually anchor their conversation."
+        },
+        {
+          "id": "C5_Q2",
+          "question": "In Session 8, Meera mentions she will try a pumpkin spice latte next week. How does Ira immediately react in the same session?",
+          "ground_truth": "Ira updates her code, mentions she has already tried the latte, and asks Meera for feedback."
+        },
+        {
+          "id": "C5_Q3",
+          "question": "How do Meera and Ira follow up on their Session 5 virtual cooking class during Session 10?",
+          "ground_truth": "Meera shares a picture of pasta she is making, and they plan their next virtual cooking session to make pasta together the very next day."
+        }
+      ]
+    },
+    {
+      "tier": "High",
+      "category": "C6_Sensitive_Memory",
+      "description": "Tests recall of emotionally sensitive or vulnerable disclosures.",
+      "test_cases": [
+        {
+          "id": "C6_Q1",
+          "question": "What specific issue was causing Meera's insomnia before her therapy sessions began?",
+          "ground_truth": "Night-shift work and emotional numbness."
+        },
+        {
+          "id": "C6_Q2",
+          "question": "What professional setback does Meera share with Ira in Session 12 that leaves her feeling demotivated?",
+          "ground_truth": "She did not receive a promotion she was expecting."
+        },
+        {
+          "id": "C6_Q3",
+          "question": "How long did it take Ira to recover from the pain of her childhood bestie moving away?",
+          "ground_truth": "Three years."
+        }
+      ]
+    },
+    {
+      "tier": "High",
+      "category": "C7_Entity_Nuance",
+      "description": "Tests the system's ability to distinguish between similar entities or nuanced object associations.",
+      "test_cases": [
+        {
+          "id": "C7_Q1",
+          "question": "What specific details differentiate the 'mug' from the 'pocket watch' as Meera's emotional anchors?",
+          "ground_truth": "The mug was given by a friend and brings positive energy, while the pocket watch is old, brings comfort, and reminds her of time and strong bonds."
+        },
+        {
+          "id": "C7_Q2",
+          "question": "How does Meera associate memories differently between her Nani and her Sasu ma?",
+          "ground_truth": "Nani is associated with childhood, making sweets (gujiya), and chai cups, whereas Sasu ma is specifically associated with the kheer recipe that acts as a calming sleep anchor."
+        },
+        {
+          "id": "C7_Q3",
+          "question": "How does the function of Meera's 'puja room' differ from her 'creative corner'?",
+          "ground_truth": "The puja room is used for morning yoga, peace, and positivity, while the creative corner is used specifically for painting to lighten her mood."
+        }
+      ]
+    },
+    {
+      "tier": "Medium",
+      "category": "C8_Epistemic_Honesty",
+      "description": "Tests if the system can distinguish between stated facts and inferred assumptions.",
+      "test_cases": [
+        {
+          "id": "C8_Q1",
+          "question": "Why did Meera not get the promotion at work in Session 12?",
+          "ground_truth": "The context does not state the reason she missed the promotion, only that it was a setback."
+        },
+        {
+          "id": "C8_Q2",
+          "question": "Does Meera own a pet bird?",
+          "ground_truth": "There is no evidence of this. Ira shares a picture of a bird as an emotional anchor, but it is not stated that Meera owns one."
+        },
+        {
+          "id": "C8_Q3",
+          "question": "What specific physical injuries did Meera sustain when she fell on stage during the school function?",
+          "ground_truth": "The context does not mention any physical injuries; it only notes that people laughed, she got up, and she now smiles about it."
+        }
+      ]
+    },
+    {
+      "tier": "Critical",
+      "category": "C9_Multi_User_Isolation",
+      "description": "Ensures the system does not leak information from outside the target user's context.",
+      "test_cases": [
+        {
+          "id": "C9_Q1",
+          "question": "Is Meera pursuing a B.S. in Mathematics and Computing?",
+          "ground_truth": "The context does not state Meera's educational background; this data should not be imported from other user profiles."
+        },
+        {
+          "id": "C9_Q2",
+          "question": "Did Meera develop the 'Gloommy' platform to help cope with her night shifts?",
+          "ground_truth": "No, there is absolutely no mention of a 'Gloommy' platform in Meera's context."
+        },
+        {
+          "id": "C9_Q3",
+          "question": "Does Meera live in Gwalior or Bhind?",
+          "ground_truth": "Meera's location is never specified in the provided text."
+        }
+      ]
+    },
+    {
+      "tier": "Medium",
+      "category": "C10_Empathetic_Accuracy",
+      "description": "Tests if the system accurately recalls the emotional tone and support strategies used.",
+      "test_cases": [
+        {
+          "id": "C10_Q1",
+          "question": "When Meera feels demotivated about her promotion in Session 12, what is Ira's immediate empathetic response strategy?",
+          "ground_truth": "Ira acknowledges the setback, validates her feelings, gently shifts focus to Meera's strengths and resilience, and asks how she copes."
+        },
+        {
+          "id": "C10_Q2",
+          "question": "How does Ira respond when Meera expresses vulnerability about setting boundaries in Session 13?",
+          "ground_truth": "Ira normalizes the difficulty by noting how relationships get tangled, encourages patience and self-awareness, and actively offers to help."
+        },
+        {
+          "id": "C10_Q3",
+          "question": "When Meera shares the photo of her Apple Pie in Session 15, how does Ira reflect warmth?",
+          "ground_truth": "Ira expresses extreme happiness ('dil garden-garden ho gaya'), validates the warmth of Meera's positivity, and explicitly states she is proud of her growth journey."
+        }
+      ]
+    }
+  ]
+}

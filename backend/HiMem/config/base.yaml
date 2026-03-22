@@ -1,0 +1,66 @@
+llm_providers:
+  openai:
+    config:
+      model: "YOUR_MODEL_NAME"
+      api_key: "YOUR_API_KEY"
+      temperature: 0.0
+  qwen:
+    config:
+      model: "YOUR_MODEL_NAME"
+      api_key: "YOUR_API_KEY"
+      base_url: "YOUR_API_BASE_URL"
+      temperature: 0.0
+  ollama:
+    config:
+      model: "llama3.1:70b-instruct-q4_K_M"
+      base_url: "http://localhost:11434/v1/"
+      temperature: 0.0
+vector_store:
+  provider: qdrant
+  config:
+    host: localhost
+    port: 6333
+    collection_name: "YOUR_COLLECTION_NAME"
+    embedding_model_dims: 768
+embedder:
+  provider: huggingface
+  config:
+    model: all-mpnet-base-v2 #all-MiniLM-L6-v2
+    embedding_dims: 768
+reranker:
+  provider: huggingface
+  config:
+    model: BAAI/bge-reranker-v2-m3
+components:
+  memory:
+    config:
+      llm_provider: openai
+      enable_self_evolving: False
+  episode_memory:
+    config:
+      llm_provider: openai
+      index_prefix: dev
+  note_memory:
+    config:
+      llm_provider: openai
+  knowledge_conflict_detector:
+    config:
+      llm_provider: openai
+      knowledge_conflict_detection_prompt_path: config/instructions/knowledge_conflict_detection.md
+  segmentor:
+    config:
+      llm_provider: openai
+      prompt_path: config/instructions/segmentation.md
+      topic_recommendation_prompt_path: config/instructions/topic_recommendation.md
+      collection_name: topics
+  extractor:
+    config:
+      llm_provider: openai
+      stage_1_prompt_path: config/instructions/stage_1.md
+      stage_2_prompt_path: config/instructions/stage_2.md
+      stage_3_prompt_path: config/instructions/stage_3.md
+      knowledge_extraction_prompt_path: config/instructions/knowledge_extraction.md
+  reviewer:
+    config:
+      llm_provider: openai
+      evaluation_prompt_path: config/instructions/evaluation.md

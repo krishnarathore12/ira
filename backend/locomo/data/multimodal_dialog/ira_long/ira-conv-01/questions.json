@@ -1,0 +1,226 @@
+{
+  "test_suite": "Aarav_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What is Aarav's favorite Indian dish?",
+          "ground_truth": "Palak paneer."
+        },
+        {
+          "id": "C1_2",
+          "question": "What musical instrument does Aarav play to find peace?",
+          "ground_truth": "Tabla."
+        },
+        {
+          "id": "C1_3",
+          "question": "What was the name of the interviewer for Aarav's first job interview?",
+          "ground_truth": "Yadav."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "Aarav initially tried a specific habit to manage his work stress, but later stated it wasn't providing peace anymore. What was the habit?",
+          "ground_truth": "Journaling (mentioned as failing to help in Session 15)."
+        },
+        {
+          "id": "C2_2",
+          "question": "When Aarav reminisced about dancing to 'Kal Ho Na Ho' at age 10, how did he correct his description of the memory?",
+          "ground_truth": "He initially said 'mummy aur main yeh gaana dance karte hue recreate karte the' but corrected it to 'mummy ke saath yeh gaana dance karte the' (dancing *with* his mom rather than recreating it)."
+        },
+        {
+          "id": "C2_3",
+          "question": "In Session 12, what activity did Aarav organize for Ira as a direct response/exchange for the care package she had previously sent him?",
+          "ground_truth": "A virtual game night."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Aarav receive his work promotion before or after his father passed away?",
+          "ground_truth": "After. His father passed away in April (Session 2), and he received his promotion later (Session 6)."
+        },
+        {
+          "id": "C3_2",
+          "question": "According to Aarav, which coping mechanism did he engage in first: the art therapy session or the dance classes?",
+          "ground_truth": "He mentions the art therapy session first, which, along with the dance classes, helped make him emotionally strong (Session 4)."
+        },
+        {
+          "id": "C3_3",
+          "question": "What event immediately preceded Aarav's realization that he needed to maintain authenticity amidst daily chaos to find clarity and purpose?",
+          "ground_truth": "Thinking about his future goals and aspirations (Session 14)."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Aarav's brother?",
+          "ground_truth": "Not mentioned in the text (only that he lives with his mom and brother)."
+        },
+        {
+          "id": "C4_2",
+          "question": "On what exact date did Aarav's father pass away?",
+          "ground_truth": "Not explicitly stated (only mentioned as 'last month' during the May 3rd session)."
+        },
+        {
+          "id": "C4_3",
+          "question": "What specific company did Aarav interview with on April 3rd?",
+          "ground_truth": "Not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "Aarav cooks a specific meal for his family in Session 2. In which later session does he recreate this exact same meal to reminisce about his childhood?",
+          "ground_truth": "Session 13 (Paneer tikka masala)."
+        },
+        {
+          "id": "C5_2",
+          "question": "How does Aarav's coping mechanism in Session 4 evolve into his long-term career aspiration by Session 7?",
+          "ground_truth": "He joined dance classes to cope with his grief in Session 4, which evolved into his future goal of opening his own dance studio in Session 7."
+        },
+        {
+          "id": "C5_3",
+          "question": "In Session 8, Aarav recalls a specific travel memory. How does this connect to an image he shares later in Session 14?",
+          "ground_truth": "In Session 8, he recalls the snowfall and chai from a 2022 Shimla trip. In Session 14, his vision board includes 'travel destinations', showing his ongoing passion for travel and mountain trips."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "How did Aarav, his mother, and his brother daily honor his father's memory at home?",
+          "ground_truth": "By setting up a small family puja where they light candles and offer flowers."
+        },
+        {
+          "id": "C6_2",
+          "question": "Why did the movie 'The Pursuit of Happyness' resonate so deeply with Aarav?",
+          "ground_truth": "It motivated him regarding life's struggles and specifically reminded him of his dad's support during tough times."
+        },
+        {
+          "id": "C6_3",
+          "question": "What specific, emotionally significant memory does Aarav associate with Palak Paneer?",
+          "ground_truth": "It is a secret family recipe, and he remembers the first time his parents taught him how to make it."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "Who is Hira in the context of Aarav's life?",
+          "ground_truth": "A favorite character from a love story novel he is reading, admired for her strength and compassion."
+        },
+        {
+          "id": "C7_2",
+          "question": "Aarav shared a photo of dancing shoes covered in rose petals. What specific event was this from?",
+          "ground_truth": "His friend's wedding."
+        },
+        {
+          "id": "C7_3",
+          "question": "What specific flavor of birthday cake did Aarav's mother used to bake for him when he was a child?",
+          "ground_truth": "Pineapple."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Aarav states that Sudoku is his favorite game. Can we infer that he plays it every weekend?",
+          "ground_truth": "No. He states he plays it to keep his mind sharp, but never specifies the frequency of how often he plays it."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Aarav currently live alone?",
+          "ground_truth": "No, he explicitly states in Session 2 that he is living with his mom and brother."
+        },
+        {
+          "id": "C8_3",
+          "question": "Aarav shared a picture of a sunrise from a recent trek. Was this picture taken during the morning hike he took 'last summer'?",
+          "ground_truth": "No. The picture was from a *recent* trek, which merely *reminded* him of the morning hike from last summer."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Ira asked Aarav if he played PUBG. Did Aarav confirm this is his favorite video game?",
+          "ground_truth": "No, Aarav ignored the PUBG suggestion and stated his favorite game is Sudoku."
+        },
+        {
+          "id": "C9_2",
+          "question": "Is Aarav planning his upcoming nature trip to the lake with his brother?",
+          "ground_truth": "No, he is actively planning the nature trip with Ira."
+        },
+        {
+          "id": "C9_3",
+          "question": "Is Aarav learning to play the guitar to deal with his stress?",
+          "ground_truth": "No, he finds peace in playing the tabla and going to his dance studio."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "When Aarav mentions his dance studio, how should Ira accurately contextualize it while maintaining her warmth?",
+          "ground_truth": "She should warmly acknowledge it as his 'happy place', a safe haven full of energy where he forgets the world and pursues his dreams and passions."
+        },
+        {
+          "id": "C10_2",
+          "question": "How should Ira respond when Aarav brings up his father, ensuring both factual alignment and emotional care?",
+          "ground_truth": "She should validate his feelings of loss, remind him of his father's enduring love in his memories (like family recipes or movie connections), and reinforce that she is there to support him."
+        },
+        {
+          "id": "C10_3",
+          "question": "If Aarav complains about office stress post-promotion, what is the most contextually accurate and warm way for Ira to respond?",
+          "ground_truth": "She should acknowledge the heavy workload that came with his recent promotion, remind him of his past successful coping tools (like dance, tabla, or movie nights), and offer her unwavering partnership."
+        }
+      ]
+    }
+  ]
+}

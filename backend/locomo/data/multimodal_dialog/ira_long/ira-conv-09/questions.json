@@ -1,0 +1,226 @@
+{
+  "test_suite": "Imran_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What is the name of Imran's childhood pet?",
+          "ground_truth": "Tommy."
+        },
+        {
+          "id": "C1_2",
+          "question": "What is Imran's favorite movie?",
+          "ground_truth": "Andaz Apna Apna."
+        },
+        {
+          "id": "C1_3",
+          "question": "What domain is Imran interested in for his job search?",
+          "ground_truth": "UX design."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "What did Imran do after feeling embarrassed about a failed joke at the open-mic?",
+          "ground_truth": "He reworked his joke set."
+        },
+        {
+          "id": "C2_2",
+          "question": "How did Imran's feelings change after his revised joke set succeeded?",
+          "ground_truth": "He gained confidence."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Imran initially feel after losing his job, and how did it change after talking to Ira?",
+          "ground_truth": "Initially felt lost and unsettled, but felt better after discussing with Ira."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Imran feel anxious before or after performing at the open-mic in Andheri?",
+          "ground_truth": "Before."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event occurred first: Imran losing his job or attending the stand-up comedy workshop with Ira?",
+          "ground_truth": "Imran lost his job first."
+        },
+        {
+          "id": "C3_3",
+          "question": "What did Imran do after Ira helped him rework his joke set?",
+          "ground_truth": "He gained confidence after the success of the revised joke set."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Imran's brother?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific company did Imran work for before losing his job?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact date of Imran's first open-mic performance?",
+          "ground_truth": "Not explicitly stated (only mentioned as '15 November, 2022')."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How does Imran's initial anxiety before the open-mic connect to his later confidence?",
+          "ground_truth": "He initially felt anxious, but after reworking his joke set and succeeding, he gained confidence."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing support does Ira provide Imran throughout his performances?",
+          "ground_truth": "Ira consistently supports and encourages Imran, boosting his confidence and helping him rework his jokes."
+        },
+        {
+          "id": "C5_3",
+          "question": "How does Imran's interest in UX design evolve across sessions?",
+          "ground_truth": "He expresses interest in UX design after losing his job and plans to start exciting projects in that domain."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "How did Imran feel after losing his childhood pet, Tommy?",
+          "ground_truth": "He felt that the house was empty without Tommy."
+        },
+        {
+          "id": "C6_2",
+          "question": "What emotional impact did the failed joke at the open-mic have on Imran?",
+          "ground_truth": "He felt embarrassed and shattered."
+        },
+        {
+          "id": "C6_3",
+          "question": "What does Imran associate with his childhood memories of Tommy?",
+          "ground_truth": "He cherishes the joyful times and considers Tommy a true friend."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What specific line from Imran's new set was mentioned?",
+          "ground_truth": "'Life ke jokes ko aise tackle kiya jaise daily open-mic ho!'"
+        },
+        {
+          "id": "C7_2",
+          "question": "What is the name of the comedy routine diary gifted by Ira?",
+          "ground_truth": "Not explicitly named, but it is a personalized comedy routine diary."
+        },
+        {
+          "id": "C7_3",
+          "question": "What specific event did Imran and Ira plan to perform together?",
+          "ground_truth": "A joint comedic performance showcasing their bond and shared experiences."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Imran performs at open-mics every weekend?",
+          "ground_truth": "No, it is only stated that he performed at an open-mic in Andheri and plans future performances."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Imran currently live alone?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C8_3",
+          "question": "Is it stated that Imran has a pet currently?",
+          "ground_truth": "No, it is only mentioned that he lost his childhood pet, Tommy."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Is Imran planning a nature trip with Ira?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C9_2",
+          "question": "Does Imran find peace in playing a musical instrument?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C9_3",
+          "question": "Is Imran learning to cook to deal with his stress?",
+          "ground_truth": "No, he finds comfort in discussing with Ira and pursuing his passions like UX design and comedy."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Imran shares his anxiety before a performance?",
+          "ground_truth": "She should reassure him, remind him of his past successes, and offer her unwavering support."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most contextually accurate and warm way for Ira to respond when Imran talks about Tommy?",
+          "ground_truth": "She should empathize with his loss, cherish the memories of Tommy, and remind him that true friends stay close at heart."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond to Imran's excitement about their joint comedic performance?",
+          "ground_truth": "She should express enthusiasm, acknowledge their strong bond, and encourage their shared creativity."
+        }
+      ]
+    }
+  ]
+}

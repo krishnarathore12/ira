@@ -1,0 +1,226 @@
+{
+  "test_suite": "Ananya_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What exam is Ananya preparing for?",
+          "ground_truth": "CA finals."
+        },
+        {
+          "id": "C1_2",
+          "question": "What activity did Ananya and Ira plan to start together for mutual benefit?",
+          "ground_truth": "Mindfulness practice."
+        },
+        {
+          "id": "C1_3",
+          "question": "What did Ananya share with Ira that reminded her of her first stage performance?",
+          "ground_truth": "A playlist made by Ira."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "What did Ananya initially feel about her self-belief during her first stage performance?",
+          "ground_truth": "She had some self-belief issues initially, which got resolved as she performed."
+        },
+        {
+          "id": "C2_2",
+          "question": "How did Ananya's perception of her family's understanding change over time?",
+          "ground_truth": "Initially, she felt pressured by family expectations, but later mentioned that her family started understanding and supporting her better."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Ananya say about her ability to balance family events and studies after the virtual birthday party?",
+          "ground_truth": "She found it difficult to find time for family events due to study commitments."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Ananya discuss her high family expectations before or after attending the mindfulness retreat?",
+          "ground_truth": "After attending the mindfulness retreat."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event followed Ananya's increased confidence after the top-10 mock exam?",
+          "ground_truth": "Ira reinforced the importance of balancing recovery and consistency to Ananya."
+        },
+        {
+          "id": "C3_3",
+          "question": "What did Ananya and Ira plan after their open conversation about fears and vulnerabilities?",
+          "ground_truth": "They planned to start a mindfulness practice together."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is Ananya's favorite dish?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific career does Ananya aspire to pursue after her CA finals?",
+          "ground_truth": "Not explicitly stated in the text."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact date of Ananya's first stage performance?",
+          "ground_truth": "Not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How did Ananya's perception of mindfulness change from the retreat to her daily routine?",
+          "ground_truth": "She gained clarity from the retreat, making sessions and mock exams seem easier, and later suggested starting a mindfulness practice with Ira."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing support does Ananya receive from Ira regarding her CA finals?",
+          "ground_truth": "Ira provides motivation, study tips, and emotional support to help Ananya balance her studies and family expectations."
+        },
+        {
+          "id": "C5_3",
+          "question": "How did Ananya's relationship with her family evolve over time?",
+          "ground_truth": "Initially, she felt pressured by family expectations, but later mentioned that her family started understanding and supporting her better."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "What emotional challenge did Ananya face related to her family?",
+          "ground_truth": "She felt pressured by high family expectations."
+        },
+        {
+          "id": "C6_2",
+          "question": "How did Ananya feel after discussing fears and vulnerabilities with Ira?",
+          "ground_truth": "She felt more at ease and grateful for Ira's support."
+        },
+        {
+          "id": "C6_3",
+          "question": "What memory did Ananya share with Ira that involved her siblings?",
+          "ground_truth": "A childhood photo with siblings playing in the rain."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What did Ananya share with Ira that symbolized balance in her studies?",
+          "ground_truth": "A photo of her CA final preparation books."
+        },
+        {
+          "id": "C7_2",
+          "question": "What specific playlist did Ira create for Ananya?",
+          "ground_truth": "A playlist that reminded Ananya of her first stage performance."
+        },
+        {
+          "id": "C7_3",
+          "question": "What was the content of the handwritten letter Ananya shared with Ira?",
+          "ground_truth": "A heartfelt message from her father, surrounded by family photos."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Ananya's family fully understands her aspirations?",
+          "ground_truth": "No, it is mentioned that they started understanding her better, but full understanding is not explicitly stated."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Ananya have a specific routine for her mindfulness practice?",
+          "ground_truth": "No specific routine is mentioned, only the plan to start mindfulness practice with Ira."
+        },
+        {
+          "id": "C8_3",
+          "question": "Can we infer that Ananya's first stage performance was a dance performance?",
+          "ground_truth": "No, the type of performance is not specified."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Does Ananya prefer virtual karaoke nights over mindfulness practice?",
+          "ground_truth": "No, she finds both activities beneficial for relaxation and stress relief."
+        },
+        {
+          "id": "C9_2",
+          "question": "Is Ananya's favorite relaxation corner a beach?",
+          "ground_truth": "No, she shared a picture of her favorite relaxation corner, but it is not specified as a beach."
+        },
+        {
+          "id": "C9_3",
+          "question": "Does Ananya's family pressure her to pursue a career in music?",
+          "ground_truth": "No, the family pressure is related to high expectations, not specifically about a career in music."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Ananya expresses stress about her mocks?",
+          "ground_truth": "Ira should reassure Ananya that stress is normal, remind her of her strength, and encourage self-care and focus."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most supportive way for Ira to encourage Ananya's mindfulness practice?",
+          "ground_truth": "Ira should express excitement for their mindfulness journey together and offer to start the practice with Ananya."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond to Ananya's gratitude for her support?",
+          "ground_truth": "Ira should express that Ananya's gratitude and support are important, and that their friendship and bond are strengthened by it."
+        }
+      ]
+    }
+  ]
+}

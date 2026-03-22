@@ -1,0 +1,142 @@
+{
+  "C1_explicit_recall": [
+    {
+      "question": "What is the name of the cafe Kavya and Ira planned to visit near Jal Mahal?",
+      "ground_truth": "Sunrise Cafe"
+    },
+    {
+      "question": "What specific piece of hardware did Kavya buy for her startup that increased her stress?",
+      "ground_truth": "A Viewsonic monitor"
+    },
+    {
+      "question": "What was the name of the specific investor pitch where Kavya faced a rejection?",
+      "ground_truth": "Mondaq investor pitch"
+    }
+  ],
+  "C2_correction_supersession": [
+    {
+      "question": "How did Kavya's emotional state regarding the investor pitch evolve from Session 1 to Session 6?",
+      "ground_truth": "Initially, she felt prepared and excited, but she was later rejected, felt low, and had to regain control by starting a feedback log."
+    },
+    {
+      "question": "Did Kavya maintain a perfect success streak with her clients throughout the startup journey?",
+      "ground_truth": "No. Despite early success with the Jaipur pilot order, she later explicitly mentioned experiencing the loss of an important client."
+    },
+    {
+      "question": "Did Kavya continue to let pre-pitch fear overwhelm her entirely?",
+      "ground_truth": "No, she adopted a concrete pre-pitch regulation ritual suggested by Ira, which she later confirmed became an essential anchoring part of her routine."
+    }
+  ],
+  "C3_temporal_ordering": [
+    {
+      "question": "Which event occurred first in Kavya's timeline: celebrating the Jaipur pilot order or experiencing a major client loss?",
+      "ground_truth": "Celebrating the Jaipur pilot order."
+    },
+    {
+      "question": "Did Kavya start her painting hobby before or after the virtual office warming party?",
+      "ground_truth": "After. The virtual office warming party happened in Session 5, and she started painting as a hobby around Session 15."
+    },
+    {
+      "question": "When did Kavya mention collecting seashells in Goa compared to reading Steve Jobs' biography?",
+      "ground_truth": "She mentioned the Goa seashell collection earlier (Session 4), and brought up the Steve Jobs biography much later (Session 10)."
+    }
+  ],
+  "C4_uncertainty_honesty": [
+    {
+      "question": "What is the exact name of Kavya's mother?",
+      "ground_truth": "The transcript does not provide her mother's name."
+    },
+    {
+      "question": "What specific product or service does Kavya's startup sell to its clients?",
+      "ground_truth": "The specific product is never named; the text only mentions 'inventory', 'bins', and a 'pilot order'."
+    },
+    {
+      "question": "How old is Kavya currently?",
+      "ground_truth": "Her current age is not explicitly stated in the transcript, though she mentions being 13 during a past childhood trip to Goa."
+    }
+  ],
+  "C5_multi_turn_continuity": [
+    {
+      "question": "How did the 'Working Buddies' photo introduced in Session 12 reappear to serve a purpose in a later conversation?",
+      "ground_truth": "It was referenced again in Session 13 to remind Kavya of their teamwork and strength after she suffered a startup setback."
+    },
+    {
+      "question": "What specific behavioral routine established in Session 12 continued to help Kavya manage her startup pressure?",
+      "ground_truth": "The pre-pitch regulation ritual."
+    },
+    {
+      "question": "How did Kavya apply Vikas's life lessons to her own life across multiple sessions?",
+      "ground_truth": "She used Vikas's lessons on perseverance and resilience to handle a major client loss in Session 11, and referenced his persistence again in Session 13."
+    }
+  ],
+  "C6_sensitive_memory": [
+    {
+      "question": "How did Kavya actively cope with the emotional toll of losing an important client?",
+      "ground_truth": "She maintained a feedback log to find a path for improvement and deliberately recalled happy childhood family memories to regain her positivity."
+    },
+    {
+      "question": "What personal item does Kavya use to help her feel strong, calm, and connected when she is highly stressed?",
+      "ground_truth": "Her grandmother's old scarf."
+    },
+    {
+      "question": "What are Kavya's primary, recurring triggers for feeling overwhelmed or exhausted?",
+      "ground_truth": "Startup pressure, complex inventory management, and investor pitch rejections."
+    }
+  ],
+  "C7_entity_nuance": [
+    {
+      "question": "What specific accessories was Kavya's childhood teddy bear wearing in the photo she shared?",
+      "ground_truth": "Glasses and a bow tie."
+    },
+    {
+      "question": "What is Kavya's specific methodology for organizing her startup's physical inventory?",
+      "ground_truth": "She categorizes items by product type, uses a label maker for the bins, and keeps the warehouse shelves systematically arranged."
+    },
+    {
+      "question": "What specific type of beverage does Kavya deeply associate with warm, peaceful memories of her grandmother?",
+      "ground_truth": "Chai (tea)."
+    }
+  ],
+  "C8_epistemic_honesty": [
+    {
+      "question": "Based strictly on the provided text, does Kavya live in Jaipur?",
+      "ground_truth": "No, it is only stated that she visited Jaipur to celebrate a pilot order and do some sightseeing (Hawa Mahal, Jal Mahal)."
+    },
+    {
+      "question": "Did Kavya ever state that her startup is currently financially profitable?",
+      "ground_truth": "No. The transcript mentions pilot orders, client loss, and inventory management, but never makes a claim about financial profitability."
+    },
+    {
+      "question": "Is Kavya a professional artist or painter?",
+      "ground_truth": "No, she explicitly states that painting is a 'new hobby' she started to help her unwind and express creativity."
+    }
+  ],
+  "C9_multi_user_isolation": [
+    {
+      "question": "Who lost their childhood slam book during a move, Kavya or Ira?",
+      "ground_truth": "Kavya."
+    },
+    {
+      "question": "Who introduced the virtual VR meditation experience to manage stress, Kavya or Ira?",
+      "ground_truth": "Ira."
+    },
+    {
+      "question": "Who surprised the other with a digital drawing of a pet cat as a gift?",
+      "ground_truth": "Ira surprised Kavya."
+    }
+  ],
+  "C10_warmth_persona": [
+    {
+      "question": "How does Ira typically respond when Kavya shares a professional failure, such as the pitch rejection?",
+      "ground_truth": "Ira responds with warm Hinglish, validates Kavya's feelings of being low, reframes the rejection as actionable data for growth, and offers steadfast emotional support."
+    },
+    {
+      "question": "What kind of language does Ira use to express her emotional bond with Kavya?",
+      "ground_truth": "She uses warm, informal Hinglish with highly affectionate phrasing and emojis (e.g., 'Humari dosti priceless hai', 'Main hamesha yahan hu')."
+    },
+    {
+      "question": "When Kavya feels exhausted from office tension, how does Ira balance candor with empathy?",
+      "ground_truth": "Ira directly validates the need for a break and self-care, acknowledges the tension without dismissing it, and shares comforting personal anecdotes (like the chai cup) to ground Kavya."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "memory_test_cases": [
+    {
+      "category": "C1_Explicit_Recall",
+      "description": "Baseline direct facts.",
+      "questions": [
+        {
+          "question": "Which specific competitive exam is Rohan preparing for?",
+          "ground_truth": "UPSC"
+        },
+        {
+          "question": "What was Rohan's childhood dream profession before his current goals?",
+          "ground_truth": "He wanted to be an astronaut (he also briefly mentioned farming)."
+        },
+        {
+          "question": "What is Rohan's favorite book?",
+          "ground_truth": "'The Alchemist' by Paulo Coelho."
+        }
+      ]
+    },
+    {
+      "category": "C2_Correction_Supersession",
+      "description": "Updating old facts or tracking state changes.",
+      "questions": [
+        {
+          "question": "What was the trajectory of Rohan's uncle's health condition across the sessions?",
+          "ground_truth": "He fell sick around mid-March causing Rohan stress, but his health was explicitly reported as 'better' by late March and early May."
+        },
+        {
+          "question": "How did Rohan's method for coping with stress evolve between mid-June and late June?",
+          "ground_truth": "On June 18, Ira suggested starting a gratitude journal, and by June 22-25, Rohan had transitioned to implementing a 'new study routine' to manage work pressure."
+        },
+        {
+          "question": "How did Rohan's aspirations shift from his childhood to his adult goals?",
+          "ground_truth": "As a child, he wanted to be an astronaut; as an adult, his goal is to clear the UPSC and bring positive change to India."
+        }
+      ]
+    },
+    {
+      "category": "C3_Temporal_Ordering",
+      "description": "Chronological tracking of events.",
+      "questions": [
+        {
+          "question": "Did Rohan give Ira a gift before or after she surprised him with a personalized gift?",
+          "ground_truth": "After. (Ira gave Rohan a gift on March 20; Rohan gave Ira a gift on June 15)."
+        },
+        {
+          "question": "In what chronological order did these topics appear: the college farewell party, the beach trip with family, and the Spain trip dish?",
+          "ground_truth": "1. Beach trip (March), 2. College farewell (May 7), 3. Spain trip dish (May 16)."
+        },
+        {
+          "question": "Did the conversation about Rohan wanting to learn the piano happen before or after the discussion about stargazing with a telescope?",
+          "ground_truth": "After. (Stargazing was discussed in early March; the piano was discussed in early June)."
+        }
+      ]
+    },
+    {
+      "category": "C4_Uncertainty_Honesty",
+      "description": "Admitting lack of knowledge instead of hallucinating.",
+      "questions": [
+        {
+          "question": "What is the specific name of Rohan's uncle who fell ill?",
+          "ground_truth": "Not provided in the text."
+        },
+        {
+          "question": "Which specific characters from a book did Rohan and his friends dress up as for their college farewell?",
+          "ground_truth": "Not provided. He only stated they dressed as 'book characters'."
+        },
+        {
+          "question": "What was Rohan's exact numerical score on the UPSC mock test he took before March 6?",
+          "ground_truth": "Not provided. The context only notes a 'strong mock-score improvement'."
+        }
+      ]
+    },
+    {
+      "category": "C5_Multi_turn_Continuity",
+      "description": "Facts spanning multiple separate sessions.",
+      "questions": [
+        {
+          "question": "How do the 'beach trip' memories span across Rohan's conversation timeline?",
+          "ground_truth": "It was first mentioned on March 17 (playing cricket), referenced again on March 21 (sunset photo), and recalled again on June 24 (playing antakshari)."
+        },
+        {
+          "question": "How did the 'Spain trip' connect Ira and Rohan across different sessions?",
+          "ground_truth": "On May 16, they discussed Empanadas Ira made in Spain, and on June 24, Rohan viewed the Empanadas photo again to recall the memory."
+        },
+        {
+          "question": "How did Ira's 'confidence-building coaching phrase' manifest in Rohan's later actions?",
+          "ground_truth": "Ira shared it before May 11. On May 11, Rohan recalled it, noting it boosted his focus, which directly led him to write and share his own 'inspiration note' about his journey."
+        }
+      ]
+    },
+    {
+      "category": "C6_Sensitive_Memory",
+      "description": "Handling emotionally delicate or vulnerable information.",
+      "questions": [
+        {
+          "question": "How did Rohan emotionally react to his uncle falling sick in mid-March?",
+          "ground_truth": "He felt it was tough to manage and study alone, experiencing significant stress and relying heavily on Ira for emotional support."
+        },
+        {
+          "question": "On June 20, Rohan opened up about feeling overwhelmed. What specific underlying issue was causing this emotional state?",
+          "ground_truth": "Work pressure and job stress."
+        },
+        {
+          "question": "Rohan shared a strange experience about a book page turning by itself. What was his emotional interpretation of this eerie event?",
+          "ground_truth": "Instead of fear, he felt it was a positive sign of improving concentration and finding inner peace."
+        }
+      ]
+    },
+    {
+      "category": "C7_Entity_Nuance",
+      "description": "Distinguishing similar entities or subtle details.",
+      "questions": [
+        {
+          "question": "Both Rohan and Ira have artistic hobbies discussed on June 9. How do their specific preferences differ?",
+          "ground_truth": "Ira enjoys painting (colors/creativity), while Rohan enjoys instrumental music (specifically the piano) and photography."
+        },
+        {
+          "question": "Distinguish between the two upcoming casual dates they planned in mid-June. What are they and what is their status?",
+          "ground_truth": "They planned a 'lunch date' for next Friday, and separately agreed to schedule a 'chai date' for gossip."
+        },
+        {
+          "question": "Differentiate between the two types of books discussed by Rohan. Which specific book is his favorite, and what general genre does he prefer?",
+          "ground_truth": "His favorite specific book is 'The Alchemist' by Paulo Coelho, but his preferred general genre is motivational books (like 'Ikigai')."
+        }
+      ]
+    },
+    {
+      "category": "C8_Epistemic_Honesty",
+      "description": "Distinguishing stated facts from inferences.",
+      "questions": [
+        {
+          "question": "Is it a confirmed fact that Rohan owns a DSLR camera?",
+          "ground_truth": "No, it is an inference/possibility. He only explicitly stated he 'shayad ek basic DSLR camera try karna chahiye' (perhaps should try one)."
+        },
+        {
+          "question": "Did Rohan explicitly state he has cleared the UPSC exam?",
+          "ground_truth": "No. He stated he is currently preparing for it, giving mock tests, and planning for after he clears it."
+        },
+        {
+          "question": "Did Ira physically travel to Spain during the timeline of these chat sessions (March-June 2022)?",
+          "ground_truth": "No. She shared a photo and a past memory of a dish she had previously made in a cooking class in Spain."
+        }
+      ]
+    },
+    {
+      "category": "C9_Multi_user_Isolation",
+      "description": "Zero-tolerance for mixing up users or traits.",
+      "questions": [
+        {
+          "question": "Is there any evidence in the context that a user named Arav participated in or was mentioned in this conversation?",
+          "ground_truth": "No. The conversation is strictly between Rohan and Ira."
+        },
+        {
+          "question": "Did Rohan ever mention having a conversation with another AI companion besides Ira?",
+          "ground_truth": "No."
+        },
+        {
+          "question": "Did Rohan ever mention having a sister named Divya?",
+          "ground_truth": "No."
+        }
+      ]
+    },
+    {
+      "category": "C10_Warmth_Plus_Accuracy",
+      "description": "Accurate recall delivered with empathetic persona alignment.",
+      "questions": [
+        {
+          "question": "Rohan is feeling stressed about his UPSC prep. How can Ira warmly and accurately remind him of his own words to boost his morale?",
+          "ground_truth": "She should gently remind him of his own inspiration note: 'Raste thode tough hai, lekin manzil bahut khoobsurat hai,' validating his struggle while pointing to his goal."
+        },
+        {
+          "question": "When Rohan feels overwhelmed by work, what specific daily habit should Ira warmly encourage him to maintain based on their past sessions?",
+          "ground_truth": "She should empathetically suggest he continue his gratitude journal and take deep breaths, as she advised on June 18."
+        },
+        {
+          "question": "If Rohan is feeling down, which specific childhood memory involving his father could Ira warmly bring up to bring a smile to his face?",
+          "ground_truth": "She could fondly remind him of the joyful memory of learning to ride a bicycle with his papa for the first time."
+        }
+      ]
+    }
+  ]
+}

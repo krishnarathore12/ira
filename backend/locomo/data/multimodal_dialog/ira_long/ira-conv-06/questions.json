@@ -1,0 +1,226 @@
+{
+  "test_suite": "Naina_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What is Naina's favorite classical composition?",
+          "ground_truth": "Naina's favorite classical composition is the one that brings her peace."
+        },
+        {
+          "id": "C1_2",
+          "question": "What did Naina recite at the poetry event dedicated to Ira?",
+          "ground_truth": "Naina recited a poem dedicated to Ira at the poetry event."
+        },
+        {
+          "id": "C1_3",
+          "question": "What does Naina associate with the color yellow?",
+          "ground_truth": "Naina associates the color yellow with happiness and warmth."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "What did Naina initially plan to create for the wedding anniversary before deciding on a digital art piece?",
+          "ground_truth": "Naina initially planned something personal and emotional before deciding on a special digital art piece."
+        },
+        {
+          "id": "C2_2",
+          "question": "How did Naina's feelings about her art change after Ira's support?",
+          "ground_truth": "Naina's confidence and creativity were boosted after Ira's support."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Naina decide to do after reflecting on her mentor's passing?",
+          "ground_truth": "Naina decided to go on a solo trip to the mountains for self-reflection."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Naina's solo trip to the mountains occur before or after her art mentor passed away?",
+          "ground_truth": "After. Naina took the trip to reflect on her mentor's passing."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event led to Naina and Ira planning a joint art exhibition?",
+          "ground_truth": "Their shared moment of emotional connection during the art therapy session led to planning the exhibition."
+        },
+        {
+          "id": "C3_3",
+          "question": "Did Naina share her childhood memory with Ira before or after their movie night plan?",
+          "ground_truth": "After. Naina shared the memory on 5 November, 2022, following the movie night plan on 30 October, 2022."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Naina's art mentor?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific book did Naina read during her solo trip?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact date of Naina's poetry reading event in Delhi?",
+          "ground_truth": "Not explicitly stated, only mentioned as 11 November, 2022."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How did Naina's solo trip influence her art?",
+          "ground_truth": "The trip helped her confront her mentor's absence and find new perspectives in art."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing activity do Naina and Ira plan to do together for peace and balance?",
+          "ground_truth": "They plan to meditate together for peace and balance."
+        },
+        {
+          "id": "C5_3",
+          "question": "What did Naina and Ira plan after their joint art exhibition?",
+          "ground_truth": "They planned a poetry reading event in Delhi."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "How did Naina feel after her art mentor passed away?",
+          "ground_truth": "Naina felt lost and reflected on life's uncertainties."
+        },
+        {
+          "id": "C6_2",
+          "question": "What emotional impact did Ira's call have on Naina on 25th October?",
+          "ground_truth": "It boosted Naina's mood and provided perfect timing support."
+        },
+        {
+          "id": "C6_3",
+          "question": "Why did Naina feel empowered after talking with Ira?",
+          "ground_truth": "Naina felt she could overcome any challenge with Ira's support."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What specific event did Naina and Ira collaborate on in Delhi?",
+          "ground_truth": "They collaborated on a poetry reading event."
+        },
+        {
+          "id": "C7_2",
+          "question": "What did Naina gift Ira as a token of appreciation after the literature festival?",
+          "ground_truth": "A personalized piece of art inspired by her experience at the festival."
+        },
+        {
+          "id": "C7_3",
+          "question": "What specific item did Naina find after the mehfil that reminded her of why she started expressing herself through art?",
+          "ground_truth": "A box of her childhood sketches."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Naina meditates every day?",
+          "ground_truth": "No, it is only mentioned that she finds meditation grounding and plans to meditate with Ira."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Naina live alone?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C8_3",
+          "question": "Does Naina's favorite classical composition imply she listens to it daily?",
+          "ground_truth": "No, it is mentioned as her favorite but not specified how often she listens to it."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Is Naina's favorite poet Javed Akhtar?",
+          "ground_truth": "No, Naina's all-time favorite poet is Gulzar sahab."
+        },
+        {
+          "id": "C9_2",
+          "question": "Did Naina plan a nature trip with Ira's brother?",
+          "ground_truth": "No, Naina planned a solo trip to the mountains."
+        },
+        {
+          "id": "C9_3",
+          "question": "Is Naina learning to play the guitar?",
+          "ground_truth": "No, Naina finds peace in listening to classical music."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Naina shares her childhood sketches?",
+          "ground_truth": "Ira should warmly acknowledge the nostalgia and creativity, appreciating the innocence and carefree moments captured in the sketches."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most contextually accurate and warm way for Ira to respond when Naina mentions her mentor's passing?",
+          "ground_truth": "Ira should express empathy, offer emotional support, and remind Naina of the mentor's lasting influence on her art."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond when Naina expresses gratitude for Ira's support?",
+          "ground_truth": "Ira should express mutual appreciation, emphasizing the strength and inspiration they find in each other's friendship."
+        }
+      ]
+    }
+  ]
+}

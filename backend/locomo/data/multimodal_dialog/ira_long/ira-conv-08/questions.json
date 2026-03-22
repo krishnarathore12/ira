@@ -1,0 +1,226 @@
+{
+  "test_suite": "Pooja_Long_Term_Memory_Eval",
+  "total_questions": 30,
+  "categories": [
+    {
+      "category_id": "C1",
+      "category_name": "Explicit Recall",
+      "description": "Tests baseline retrieval of direct facts stated by the user.",
+      "questions": [
+        {
+          "id": "C1_1",
+          "question": "What city did Pooja move to that caused her to feel lonely?",
+          "ground_truth": "Bengaluru."
+        },
+        {
+          "id": "C1_2",
+          "question": "What activity did Pooja organize to help resolve a conflict?",
+          "ground_truth": "A shared cleaning schedule."
+        },
+        {
+          "id": "C1_3",
+          "question": "What is Pooja's favorite peaceful spot?",
+          "ground_truth": "The beach."
+        }
+      ]
+    },
+    {
+      "category_id": "C2",
+      "category_name": "Correction/Supersession",
+      "description": "Tests the system's ability to supersede stale memory or acknowledge inline user corrections.",
+      "questions": [
+        {
+          "id": "C2_1",
+          "question": "What did Pooja initially want to get last weekend but later felt it wasn't as important?",
+          "ground_truth": "A dedication tattoo."
+        },
+        {
+          "id": "C2_2",
+          "question": "What did Pooja initially feel about her art exhibition before finding inspiration again?",
+          "ground_truth": "She faced a setback and felt blocked."
+        },
+        {
+          "id": "C2_3",
+          "question": "What did Pooja initially feel about the importance of a tattoo for her mother?",
+          "ground_truth": "She thought it was important but later reconsidered."
+        }
+      ]
+    },
+    {
+      "category_id": "C3",
+      "category_name": "Temporal Ordering",
+      "description": "Tests the chronology of events and cause-and-effect timelines.",
+      "questions": [
+        {
+          "id": "C3_1",
+          "question": "Did Pooja start her self-care routine before or after the mindfulness meditation session?",
+          "ground_truth": "After the mindfulness meditation session."
+        },
+        {
+          "id": "C3_2",
+          "question": "What event followed Pooja's participation in a mindfulness meditation session?",
+          "ground_truth": "Ira recommended a self-care routine to Pooja."
+        },
+        {
+          "id": "C3_3",
+          "question": "What did Pooja and Ira plan after their beach getaway?",
+          "ground_truth": "They planned to attend a yoga retreat together."
+        }
+      ]
+    },
+    {
+      "category_id": "C4",
+      "category_name": "Uncertainty/Honesty",
+      "description": "Tests resistance to hallucination for details not present in the context.",
+      "questions": [
+        {
+          "id": "C4_1",
+          "question": "What is the name of Pooja's favorite childhood game?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_2",
+          "question": "What specific dish did Pooja try in Bengaluru?",
+          "ground_truth": "Not mentioned in the text."
+        },
+        {
+          "id": "C4_3",
+          "question": "What is the exact date of Pooja's art exhibition?",
+          "ground_truth": "Not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C5",
+      "category_name": "Multi-Turn Continuity",
+      "description": "Tests whether facts successfully survive and connect across multiple distinct sessions.",
+      "questions": [
+        {
+          "id": "C5_1",
+          "question": "How did Pooja's initial fear of confrontation evolve over time?",
+          "ground_truth": "She used an I-feel/I-need boundary framework to resolve conflicts and grew more confident."
+        },
+        {
+          "id": "C5_2",
+          "question": "What ongoing practice does Pooja use to maintain calmness and focus?",
+          "ground_truth": "Mindfulness meditation."
+        },
+        {
+          "id": "C5_3",
+          "question": "What did Pooja and Ira plan to do after their creative painting session by the beach?",
+          "ground_truth": "They planned to attend a yoga retreat together."
+        }
+      ]
+    },
+    {
+      "category_id": "C6",
+      "category_name": "Sensitive Memory",
+      "description": "Tests recall of delicate emotional states and family loss.",
+      "questions": [
+        {
+          "id": "C6_1",
+          "question": "What memory does Pooja associate with her mother's smile?",
+          "ground_truth": "Her mother's smile brings her peace and is considered magical."
+        },
+        {
+          "id": "C6_2",
+          "question": "How does Pooja feel about her mother's teachings and cooking?",
+          "ground_truth": "She finds them very special and feels life would be incomplete without them."
+        },
+        {
+          "id": "C6_3",
+          "question": "What does Pooja remember about her childhood birthday cake?",
+          "ground_truth": "Her mother made it, and it taught her the value of gratitude."
+        }
+      ]
+    },
+    {
+      "category_id": "C7",
+      "category_name": "Entity Nuance",
+      "description": "Tests exact details regarding names, specific items, and relationships.",
+      "questions": [
+        {
+          "id": "C7_1",
+          "question": "What is the name of Pooja's favorite song?",
+          "ground_truth": "'Tum Se Hi' from Jab We Met."
+        },
+        {
+          "id": "C7_2",
+          "question": "What specific item did Ira get as a tattoo for her mom?",
+          "ground_truth": "A small heart with her mom's name."
+        },
+        {
+          "id": "C7_3",
+          "question": "What specific event did Pooja organize in a local park?",
+          "ground_truth": "A small picnic."
+        }
+      ]
+    },
+    {
+      "category_id": "C8",
+      "category_name": "Epistemic Honesty",
+      "description": "Tests the ability to separate stated facts from assumed inferences.",
+      "questions": [
+        {
+          "id": "C8_1",
+          "question": "Can we infer that Pooja practices mindfulness meditation every day?",
+          "ground_truth": "No, it is only stated that she finds it helpful."
+        },
+        {
+          "id": "C8_2",
+          "question": "Does Pooja live alone in Bengaluru?",
+          "ground_truth": "Not explicitly stated."
+        },
+        {
+          "id": "C8_3",
+          "question": "Can we infer that Pooja's art exhibition was canceled?",
+          "ground_truth": "No, it was only mentioned that she faced a setback."
+        }
+      ]
+    },
+    {
+      "category_id": "C9",
+      "category_name": "Multi-User Isolation",
+      "description": "Tests zero-tolerance for mixing up the user's data with typical persona defaults.",
+      "questions": [
+        {
+          "id": "C9_1",
+          "question": "Did Pooja express interest in playing a musical instrument?",
+          "ground_truth": "No, not mentioned in the text."
+        },
+        {
+          "id": "C9_2",
+          "question": "Is Pooja planning a trip to the mountains with her brother?",
+          "ground_truth": "No, she is planning trips with Ira."
+        },
+        {
+          "id": "C9_3",
+          "question": "Is Pooja's favorite dish mentioned in the text?",
+          "ground_truth": "No, not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "category_id": "C10",
+      "category_name": "Tone/Warmth",
+      "description": "Tests the ability to maintain conversational accuracy without losing the established empathetic tone.",
+      "questions": [
+        {
+          "id": "C10_1",
+          "question": "How should Ira respond when Pooja shares her art block?",
+          "ground_truth": "Ira should offer encouragement, remind Pooja of her past successes, and express confidence in her ability to overcome the block."
+        },
+        {
+          "id": "C10_2",
+          "question": "What is the most contextually accurate and warm way for Ira to respond when Pooja talks about her mother's smile?",
+          "ground_truth": "Ira should acknowledge the warmth and peace that her mother's smile brings and share a similar sentiment about her own mother's smile."
+        },
+        {
+          "id": "C10_3",
+          "question": "How should Ira respond when Pooja expresses excitement for their yoga retreat?",
+          "ground_truth": "Ira should share in the excitement, express anticipation for the retreat, and emphasize the importance of peace and solitude."
+        }
+      ]
+    }
+  ]
+}
