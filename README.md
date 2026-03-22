@@ -35,7 +35,7 @@ The core of Ira is built on a dual-pipeline architecture for memory and dataset 
 I implement the **HiMem** ([Memory-Efficient Hierarchical Memory](https://arxiv.org/pdf/2601.06377)) architecture. Unlike simple RAG or running summaries, HiMem organizes experiences into a hierarchical structure:
 
 - **Episodic Memory**: Raw conversation logs stored in Qdrant.
-- **Semantic Consolidation**: Fine-grained facts and entity nuances extracted into a relational SQLite store.
+- **Semantic Consolidation**: Fine-grained facts and entity nuances.
 - **Hierarchical Retrieval**: Multi-stage lookups that balance immediate context with distant historical facts.
 
 ![HiMem Pipeline](./long_term_memory_pipeline.png)
